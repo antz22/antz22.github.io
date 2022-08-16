@@ -1,14 +1,32 @@
 import pfp from "../assets/images/profile-pic.jpg";
+import menu from "../assets/icons/menu.svg";
+import exit from "../assets/icons/exit.svg";
 import "../assets/css/navbar.css";
 
 function NavBar() {
   return (
     <div className="navbar">
       <div className="container">
-        <nav>
+        <div class="nav-left">
           <a href="/">
             <img id="navbar-pfp" src={pfp} alt="Pfp"></img>
           </a>
+        </div>
+
+        <img
+          id="mobile-cta"
+          class="mobile-menu"
+          src={menu}
+          alt="Open Navigation"
+        />
+
+        <nav>
+          <img
+            id="mobile-exit"
+            class="mobile-menu-exit"
+            src={exit}
+            alt="Exit Navigation"
+          />
           <ul className="primary-nav">
             <li>
               <a href="/#about">About</a>
