@@ -14,6 +14,7 @@ $bg-2: #003F77;
 
         .greeting {
             color: $accent;
+            font-family: 'Hack';
         }
 
         .name {
@@ -37,6 +38,7 @@ $bg-2: #003F77;
             text-decoration: none;
             color: $accent;
             font-size: 1.1em;
+            font-family: 'Hack';
 
             .github-cta {
                 border: 2px solid $accent;

@@ -6,6 +6,7 @@ $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
 $bg-3: #023868;
+$hover-bg: #00539b;
 
 div#projects {
 
@@ -21,19 +22,29 @@ div#projects {
                 color: white;
                 padding: 1em;
                 margin-bottom: 1em;
+                transition: 0.2s;
 
                 .title-row {
-                    display: inline-block;
+                    display: flex;
+                    margin-top: 0.2em;
 
-                    h4.project-title {
+                    h3.project-title {
                         margin: 0;
-                        display: inline-block;
 
                     }
 
                     a.project-github {
-                        display: inline-block;
                         margin-left: 1.5em;
+
+                        img {
+                            width: 1.3em;
+                            height: 1.3em;
+                        }
+
+                    }
+
+                    a.project-link {
+                        margin-left: 1.0em;
 
                         img {
                             width: 1.3em;
@@ -61,6 +72,11 @@ div#projects {
 
                 }
 
+                &:hover {
+                    background-color: $hover-bg;
+                    transition: 0.2s;
+                }
+
 
 
             }
@@ -68,6 +84,13 @@ div#projects {
             .project-img {
                 border-radius: 10px;
                 width: 100%;
+                filter: brightness(0.8);
+                transition: 0.2s;
+
+                &:hover {
+                    filter: brightness(1);
+                    transition: 0.2s;
+                }
             }
 
         }

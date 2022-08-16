@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Hack';
+  src: local('Hack'), url(./assets/fonts/Hack/Hack-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: local('Hack'), url(./assets/fonts/Hack/Hack-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Hack', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #002E56;

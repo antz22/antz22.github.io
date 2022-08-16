@@ -1,14 +1,23 @@
 import "../../assets/css/awards.css";
 import SectionHeader from "../section-header";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Award(props) {
-  return (
-    <div className="award">
-      <h3 className="award-title">{props.title}</h3>
-      <p className="award-issuer">{props.issuer}</p>
-      <p className="award-date">{props.date}</p>
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
-      <p className="award-blurb">{props.blurb}</p>
+  return (
+    <div className="aos-award" data-aos="fade-left" data-aos-duration="600">
+      <div className="award">
+        <h3 className="award-title">{props.title}</h3>
+        <p className="award-issuer">{props.issuer}</p>
+        <p className="award-date">{props.date}</p>
+
+        <p className="award-blurb">{props.blurb}</p>
+      </div>
     </div>
   );
 }

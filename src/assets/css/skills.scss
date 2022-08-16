@@ -10,6 +10,7 @@ div#skills {
     
     .container {
         padding: 1.5em;
+        font-family: 'Hack';
 
         .skill {
             margin: auto;
@@ -30,6 +31,21 @@ div#skills {
             .skill-name {
                 color: $accent;
                 margin-bottom: 0;
+            }
+
+
+        }
+
+        .skillbar {
+            margin-bottom: 2.0em;
+            font-size: 1.3em;
+
+            .skillbar-name {
+                color: white;
+
+                h4 {
+                    margin-bottom: 1em;
+                }
             }
 
         }

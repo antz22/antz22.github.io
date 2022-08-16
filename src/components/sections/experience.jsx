@@ -1,25 +1,47 @@
 import "../../assets/css/experience.css";
 import SectionHeader from "../section-header";
 import Chevron from "../../assets/icons/chevron.svg";
+import Stack from "../../assets/icons/stack.svg";
 
 import MLIntern from "../../assets/icons/ml-intern.svg";
 import DevIntern from "../../assets/icons/dev-intern.svg";
 import BoardMember from "../../assets/icons/board-member.svg";
 
-function ExperienceCard(props) {
-  return (
-    <div className="experience-card">
-      <img className="experience-img" src={props.img} alt="Icon" />
-      <h4 className="experience-title">{props.title}</h4>
-      <p className="experience-company">{props.company}</p>
-      <p className="experience-date">{props.date}</p>
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-      {props.pts.map((pt) => (
+function ExperienceCard(props) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  return (
+    <div
+      className="experience-card"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
+      <div className="experience-img">
+        <img src={props.img} alt="Icon" />
+      </div>
+      <div className="experience-text">
+        <h3 className="experience-title">{props.title}</h3>
+        <p className="experience-company">{props.company}</p>
+        <p className="experience-date">{props.date}</p>
+
+        {props.pts.map((pt) => (
+          <div className="experience-pt">
+            <img className="chevron" src={Chevron} alt="Chevron" />
+            <p>{pt}</p>
+          </div>
+        ))}
+
         <div className="experience-pt">
-          <img className="chevron" src={Chevron} alt="Chevron" />
-          <p>{pt}</p>
+          <img className="stack" src={Stack} alt="Stack" />
+          <p>{props.stack}</p>
         </div>
-      ))}
+      </div>
     </div>
   );
 }
@@ -68,16 +90,18 @@ function Experience() {
     <div id="experience">
       <SectionHeader title="Experience" />
 
-      {experiences.map(({ title, company, date, img, pts, stack }, index) => (
-        <ExperienceCard
-          title={title}
-          company={company}
-          date={date}
-          img={img}
-          pts={pts}
-          stack={stack}
-        />
-      ))}
+      <div className="container">
+        {experiences.map(({ title, company, date, img, pts, stack }, index) => (
+          <ExperienceCard
+            title={title}
+            company={company}
+            date={date}
+            img={img}
+            pts={pts}
+            stack={stack}
+          />
+        ))}
+      </div>
     </div>
   );
 }

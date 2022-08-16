@@ -12,23 +12,35 @@ div#projects .container .project .project-card {
   color: white;
   padding: 1em;
   margin-bottom: 1em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 div#projects .container .project .project-card .title-row {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.2em;
 }
 
-div#projects .container .project .project-card .title-row h4.project-title {
+div#projects .container .project .project-card .title-row h3.project-title {
   margin: 0;
-  display: inline-block;
 }
 
 div#projects .container .project .project-card .title-row a.project-github {
-  display: inline-block;
   margin-left: 1.5em;
 }
 
 div#projects .container .project .project-card .title-row a.project-github img {
+  width: 1.3em;
+  height: 1.3em;
+}
+
+div#projects .container .project .project-card .title-row a.project-link {
+  margin-left: 1.0em;
+}
+
+div#projects .container .project .project-card .title-row a.project-link img {
   width: 1.3em;
   height: 1.3em;
 }
@@ -44,8 +56,25 @@ div#projects .container .project .project-card .project-icons .project-icon {
   margin-right: 0.5em;
 }
 
+div#projects .container .project .project-card:hover {
+  background-color: #00539b;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 div#projects .container .project .project-img {
   border-radius: 10px;
   width: 100%;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+div#projects .container .project .project-img:hover {
+  -webkit-filter: brightness(1);
+          filter: brightness(1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 /*# sourceMappingURL=projects.css.map */

@@ -12,6 +12,7 @@ div#footer {
         padding: 1.5em;
         text-align: center;
         margin: auto;
+        font-family: 'Hack';
 
         h2.footer-heading {
             color: white;
@@ -34,7 +35,7 @@ div#footer {
 
             p.footer-mark {
                 color: $brighter;
-                margin-bottom: 2.5em;
+                font-size: 0.9em;
             }
 
             p.footer-year {
@@ -43,7 +44,7 @@ div#footer {
                 text-align: center;
                 border-bottom: 1px solid #A1A1A1;
                 line-height: 0.1em;
-                margin: 3.5em auto 5em auto;
+                margin: 3.0em auto 5em auto;
 
 
                 span {

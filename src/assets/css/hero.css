@@ -4,6 +4,7 @@
 
 #hero .container .greeting {
   color: #62E3FF;
+  font-family: 'Hack';
 }
 
 #hero .container .name {
@@ -27,6 +28,7 @@
   text-decoration: none;
   color: #62E3FF;
   font-size: 1.1em;
+  font-family: 'Hack';
 }
 
 #hero .container a .github-cta {

@@ -1,4 +1,7 @@
 import "../../assets/css/footer.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Email from "../../assets/icons/mail.svg";
 import Github from "../../assets/icons/github.svg";
@@ -7,10 +10,20 @@ import Instagram from "../../assets/icons/instagram.svg";
 import StackOverflow from "../../assets/icons/stackoverflow.svg";
 
 function Footer() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div id="footer">
       <div className="container">
-        <h2 className="footer-heading">Feel free to contact me below!</h2>
+        <h2
+          className="footer-heading"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          Feel free to contact me below!
+        </h2>
 
         <div className="footer-bottom">
           <div className="socials">

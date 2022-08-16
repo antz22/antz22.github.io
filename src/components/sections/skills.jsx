@@ -4,10 +4,20 @@ import SectionHeader from "../section-header";
 import MobileDev from "../../assets/icons/mobile-dev.svg";
 import AI from "../../assets/icons/ai.svg";
 import WebDev from "../../assets/icons/web-dev.svg";
+import ProgressBar from "../progress-bar";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skill(props) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
-    <div className="skill">
+    <div className="skill" data-aos="fade-up" data-aos-duration="1000">
       <div className="skill-icon">
         <img className="icon" src={props.src} alt="icon" />
       </div>
@@ -18,11 +28,13 @@ function Skill(props) {
 
 function SkillBar(props) {
   return (
-    <div className="skillbar">
+    <div className="skillbar" data-aos="fade-left" data-aos-duration="1000">
       <div className="skillbar-name">
         <h4>{props.name}</h4>
       </div>
-      <div className="skillbar-bar">{props.percent}</div>
+      <div className="skillbar-bar">
+        <ProgressBar bgcolor="#62E3FF" completed={props.percent} />
+      </div>
     </div>
   );
 }
@@ -37,12 +49,12 @@ function Skills() {
         <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
         <Skill skill="Full-Stack Web Programming" src={WebDev} />
 
-        <SkillBar name="Python" percent="0.98" />
-        <SkillBar name="Dart" percent="0.90" />
-        <SkillBar name="Javascript" percent="0.78" />
-        <SkillBar name="HTML/CSS" percent="0.68" />
-        <SkillBar name="C++" percent="0.55" />
-        <SkillBar name="Java" percent="0.45" />
+        <SkillBar name="Python" percent="90" />
+        <SkillBar name="Dart" percent="80" />
+        <SkillBar name="Javascript" percent="65" />
+        <SkillBar name="HTML/CSS" percent="65" />
+        <SkillBar name="C++" percent="50" />
+        <SkillBar name="Java" percent="35" />
       </div>
     </div>
   );

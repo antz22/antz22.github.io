@@ -5,6 +5,7 @@ $secondary: #BEBEBE;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
+$hover-bg: #00539b;
 
 div#awards {
 
@@ -17,6 +18,9 @@ div#awards {
             padding: 2em;
             margin: 2em;
             border-radius: 10px;
+            transition: 0.2s;
+            top: 0;
+            position: relative;
 
             h3.award-title {
                 margin: 0;
@@ -25,16 +29,31 @@ div#awards {
 
             p.award-issuer {
                 color: $accent;
+                font-weight: bold;
+                font-family: 'Hack';
+                font-size: 1.1em;
+                margin-top: 0.6em;
+                margin-bottom: 0.6em;
             }
 
             p.award-date {
+                margin: 0;
                 color: $brighter;
+                font-family: 'Hack';
             }
 
             p.award-blurb {
                 color: $brighter;
                 margin-bottom: 0;
-                margin-top: 2em;
+                margin-top: 1.4em;
+                text-align: left;
+            }
+
+
+            &:hover {
+                transition: 0.2s;
+                top: -10px;
+                background-color: $hover-bg;
             }
 
         }

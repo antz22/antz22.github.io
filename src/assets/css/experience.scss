@@ -5,3 +5,83 @@ $secondary: #BEBEBE;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
+
+
+
+div#experience {
+
+    .container {
+        padding: 1.5em;
+
+
+        .experience-card {
+            display: flex;
+            margin-top: 2em;
+
+            .experience-img {
+                margin-right: 1.5em;
+
+                img {
+                    width: 6em;
+                    height: 6em;
+
+                }
+
+            }
+
+            .experience-text {
+                font-family: 'Hack';
+
+
+                h3.experience-title {
+                    font-weight: bold;
+                    margin: 0;
+                    color: $primary;
+
+                }
+
+                p.experience-company {
+                    color: $secondary;
+                    margin-top: 0.7em;
+                    margin-bottom: 0.7em;
+                    font-family: 'Inter';
+                    font-weight: 500;
+
+                }
+
+                p.experience-date {
+                    color: $accent;
+                    margin-top: 0;
+                    margin-bottom: 1.0em;
+
+                }
+
+
+                .experience-pt {
+                    display: flex;
+                    font-family: 'Inter';
+
+                    img {
+                        margin: auto 0.65em auto auto;
+                        width: 2em;
+                        height: 2em;
+
+                    }
+                    
+                    p {
+                        color: $tertiary;
+                        line-height: 1.4;
+                        margin-bottom: 0.5em;
+
+                    }
+
+                }
+
+            }
+
+
+
+
+        }
+    }
+}

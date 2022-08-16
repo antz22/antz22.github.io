@@ -1,10 +1,17 @@
 import SectionHeader from "../section-header";
 import Picture from "../../assets/images/picture.png";
 import "../../assets/css/about.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div id="about">
+    <div id="about" data-aos="fade-up">
       <SectionHeader title="About" />
       <div className="container">
         <p>
@@ -22,8 +29,9 @@ function About() {
         </p>
 
         <p>
-          Since then, I have also expanded my interests to AI and ML research,
-          conducting novel research that has been published in IEEE.
+          Since then, I have also expanded my interests to <span>AI</span> and{" "}
+          <span>ML research</span>, conducting novel research that has been
+          published in <span>IEEE</span>.
         </p>
 
         <div className="picture-container">

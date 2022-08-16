@@ -1,5 +1,6 @@
 div#skills .container {
   padding: 1.5em;
+  font-family: 'Hack';
 }
 
 div#skills .container .skill {
@@ -18,5 +19,18 @@ div#skills .container .skill .skill-icon img {
 div#skills .container .skill .skill-name {
   color: #62E3FF;
   margin-bottom: 0;
+}
+
+div#skills .container .skillbar {
+  margin-bottom: 2.0em;
+  font-size: 1.3em;
+}
+
+div#skills .container .skillbar .skillbar-name {
+  color: white;
+}
+
+div#skills .container .skillbar .skillbar-name h4 {
+  margin-bottom: 1em;
 }
 /*# sourceMappingURL=skills.css.map */
