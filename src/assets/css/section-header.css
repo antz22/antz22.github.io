@@ -1,10 +1,10 @@
 div.section-header {
   text-align: center;
-  margin: auto;
+  margin: 5em auto 2em auto;
 }
 
 h2.section-title {
-  width: 80%;
+  width: 88%;
   text-align: center;
   border-bottom: 1px solid #A1A1A1;
   line-height: 0.1em;

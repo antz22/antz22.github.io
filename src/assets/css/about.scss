@@ -7,23 +7,33 @@ $brighter: #dcc3c3;
 $bg-2: #003F77;
 
 
-div#about > p {
-    color: $tertiary;
+div#about {
+
+    .container {
+        padding: 1.5em;
+
+        p {
+            color: $tertiary;
+
+            span {
+                color: $accent;
+            }
+        }
+
+        div.picture-container {
+            margin: auto;
+            text-align: center;
+        }
+
+        img#picture {
+            margin-top: 2em;
+            width: 13rem;
+            height: 13rem;
+            border: 2px solid $accent;
+            border-radius: 5px;
+        }
+    }
 }
 
-div#about > p > span {
-    color: $accent;
-}
 
 
-div.picture-container {
-    margin: auto;
-    text-align: center;
-}
-
-img#picture {
-    width: 13rem;
-    height: 13rem;
-    border: 2px solid $accent;
-    border-radius: 5px;
-}

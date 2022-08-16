@@ -22,19 +22,22 @@ function Project(props) {
   return (
     <div className="project">
       <div className="project-card">
-        <h4>{props.title}</h4>
-        <a href="https://github.com/antz22">
-          <img className="github" src={Github} alt="Github" />
-        </a>
+        <div className="title-row">
+          <h4 className="project-title">{props.title}</h4>
+          <a className="project-github" href="https://github.com/antz22">
+            <img className="github" src={Github} alt="Github" />
+          </a>
+        </div>
 
-        <p>{props.blurb}</p>
+        <p className="project-blurb">{props.blurb}</p>
 
-        {props.icons.map((src) => (
-          <img className="project-icon" src={src} alt="Project Icon" />
-        ))}
-
-        <img className="project-img" src={props.img} alt="Project Banner" />
+        <div className="project-icons">
+          {props.icons.map((src) => (
+            <img className="project-icon" src={src} alt="Project Icon" />
+          ))}
+        </div>
       </div>
+      <img className="project-img" src={props.img} alt="Project Banner" />
     </div>
   );
 }
@@ -96,9 +99,11 @@ function Projects() {
     <div id="projects">
       <SectionHeader title="Projects" />
 
-      {projects.map(({ title, blurb, icons, img }, index) => (
-        <Project title={title} blurb={blurb} icons={icons} img={img} />
-      ))}
+      <div className="container">
+        {projects.map(({ title, blurb, icons, img }, index) => (
+          <Project title={title} blurb={blurb} icons={icons} img={img} />
+        ))}
+      </div>
     </div>
   );
 }

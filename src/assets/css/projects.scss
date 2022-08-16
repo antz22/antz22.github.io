@@ -5,3 +5,71 @@ $secondary: #BEBEBE;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
+$bg-3: #023868;
+
+div#projects {
+
+    .container {
+        padding: 1.5em;
+
+        .project {
+            margin-bottom: 4em;
+
+            .project-card {
+                background-color: $bg-3;
+                border-radius: 10px;
+                color: white;
+                padding: 1em;
+                margin-bottom: 1em;
+
+                .title-row {
+                    display: inline-block;
+
+                    h4.project-title {
+                        margin: 0;
+                        display: inline-block;
+
+                    }
+
+                    a.project-github {
+                        display: inline-block;
+                        margin-left: 1.5em;
+
+                        img {
+                            width: 1.3em;
+                            height: 1.3em;
+                        }
+
+                    }
+                }
+
+                .project-blurb {
+                    color: $brighter;
+                    margin: 2em 0;
+
+                }
+
+                .project-icons {
+
+                    .project-icon {
+                        width: 1.7em;
+                        height: 1.7em;
+                        margin-right: 0.5em;
+                
+                    }
+
+
+                }
+
+
+
+            }
+
+            .project-img {
+                border-radius: 10px;
+                width: 100%;
+            }
+
+        }
+    }
+}

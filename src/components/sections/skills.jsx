@@ -10,8 +10,8 @@ function Skill(props) {
     <div className="skill">
       <div className="skill-icon">
         <img className="icon" src={props.src} alt="icon" />
-        <h3>{props.skill}</h3>
       </div>
+      <h3 className="skill-name">{props.skill}</h3>
     </div>
   );
 }
@@ -32,16 +32,18 @@ function Skills() {
     <div id="skills">
       <SectionHeader title="Skills" />
 
-      <Skill skill="Cross-Platform Mobile App Development" src={MobileDev} />
-      <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
-      <Skill skill="Full-Stack Web Programming" src={WebDev} />
+      <div className="container">
+        <Skill skill="Cross-Platform Mobile App Development" src={MobileDev} />
+        <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
+        <Skill skill="Full-Stack Web Programming" src={WebDev} />
 
-      <SkillBar name="Python" percent="0.98" />
-      <SkillBar name="Dart" percent="0.90" />
-      <SkillBar name="Javascript" percent="0.78" />
-      <SkillBar name="HTML/CSS" percent="0.68" />
-      <SkillBar name="C++" percent="0.55" />
-      <SkillBar name="Java" percent="0.45" />
+        <SkillBar name="Python" percent="0.98" />
+        <SkillBar name="Dart" percent="0.90" />
+        <SkillBar name="Javascript" percent="0.78" />
+        <SkillBar name="HTML/CSS" percent="0.68" />
+        <SkillBar name="C++" percent="0.55" />
+        <SkillBar name="Java" percent="0.45" />
+      </div>
     </div>
   );
 }

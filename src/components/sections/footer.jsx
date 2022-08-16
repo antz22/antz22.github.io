@@ -9,23 +9,35 @@ import StackOverflow from "../../assets/icons/stackoverflow.svg";
 function Footer() {
   return (
     <div id="footer">
-      <h2 className="footer-heading">Feel free to contact me below!</h2>
+      <div className="container">
+        <h2 className="footer-heading">Feel free to contact me below!</h2>
 
-      <div className="footer-bottom">
-        <div className="socials">
-          <img id="email" src={Email} alt="Email" />
-          <img id="github" src={Github} alt="Github" />
-          <img id="linkedin" src={LinkedIn} alt="LinkedIn" />
-          <img id="instagram" src={Instagram} alt="Instagram" />
-          <img id="stackoverflow" src={StackOverflow} alt="StackOverflow" />
+        <div className="footer-bottom">
+          <div className="socials">
+            <a href="mailto:anthonyznj@gmail.com">
+              <img id="email" src={Email} alt="Email" />
+            </a>
+            <a href="https://github.com/antzz">
+              <img id="github" src={Github} alt="Github" />
+            </a>
+            <a href="https://www.linkedin.com/in/anthony-zhai-275182210/">
+              <img id="linkedin" src={LinkedIn} alt="LinkedIn" />
+            </a>
+            <a href="https://www.instagram.com/anthny.z/">
+              <img id="instagram" src={Instagram} alt="Instagram" />
+            </a>
+            <a href="https://stackoverflow.com/users/19739293/anthony">
+              <img id="stackoverflow" src={StackOverflow} alt="StackOverflow" />
+            </a>
+          </div>
+
+          <p className="footer-mark">Designed and built by Anthony Zhai</p>
+
+          <p className="footer-year">
+            <span>2022</span>
+          </p>
         </div>
       </div>
-
-      <p>Designed and built by Anthony Zhai</p>
-
-      <p id="footer-year">
-        <span>2022</span>
-      </p>
     </div>
   );
 }

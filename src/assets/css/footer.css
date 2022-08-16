@@ -1,1 +1,41 @@
-/* No CSS *//*# sourceMappingURL=footer.css.map */
+div#footer .container {
+  padding: 1.5em;
+  text-align: center;
+  margin: auto;
+}
+
+div#footer .container h2.footer-heading {
+  color: white;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+div#footer .container div.footer-bottom .socials {
+  margin-bottom: 1.7em;
+}
+
+div#footer .container div.footer-bottom .socials img {
+  width: 1.8em;
+  height: 1.8em;
+  margin: 0.7em;
+}
+
+div#footer .container div.footer-bottom p.footer-mark {
+  color: #D6D6D6;
+  margin-bottom: 2.5em;
+}
+
+div#footer .container div.footer-bottom p.footer-year {
+  width: 88%;
+  text-align: center;
+  border-bottom: 1px solid #A1A1A1;
+  line-height: 0.1em;
+  margin: 3.5em auto 5em auto;
+}
+
+div#footer .container div.footer-bottom p.footer-year span {
+  background: #002E56;
+  padding: 0 1.5rem;
+  color: #62E3FF;
+}
+/*# sourceMappingURL=footer.css.map */

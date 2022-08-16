@@ -5,3 +5,39 @@ $secondary: #BEBEBE;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
+
+div#awards {
+
+    .container {
+        padding: 1.5em;
+
+        .award {
+            text-align: center;
+            background-color: $bg-2;
+            padding: 2em;
+            margin: 2em;
+            border-radius: 10px;
+
+            h3.award-title {
+                margin: 0;
+                color: white;
+            }
+
+            p.award-issuer {
+                color: $accent;
+            }
+
+            p.award-date {
+                color: $brighter;
+            }
+
+            p.award-blurb {
+                color: $brighter;
+                margin-bottom: 0;
+                margin-top: 2em;
+            }
+
+        }
+
+    }
+}

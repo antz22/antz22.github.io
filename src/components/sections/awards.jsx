@@ -4,11 +4,11 @@ import SectionHeader from "../section-header";
 function Award(props) {
   return (
     <div className="award">
-      <h4>{props.title}</h4>
-      <p>{props.issuer}</p>
-      <p>{props.date}</p>
+      <h3 className="award-title">{props.title}</h3>
+      <p className="award-issuer">{props.issuer}</p>
+      <p className="award-date">{props.date}</p>
 
-      <p>{props.blurb}</p>
+      <p className="award-blurb">{props.blurb}</p>
     </div>
   );
 }
@@ -62,9 +62,11 @@ function Awards() {
     <div id="awards">
       <SectionHeader title="Awards" />
 
-      {awards.map(({ title, issuer, date, blurb }, index) => (
-        <Award title={title} issuer={issuer} date={date} blurb={blurb} />
-      ))}
+      <div className="container">
+        {awards.map(({ title, issuer, date, blurb }, index) => (
+          <Award title={title} issuer={issuer} date={date} blurb={blurb} />
+        ))}
+      </div>
     </div>
   );
 }

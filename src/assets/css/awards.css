@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=awards.css.map */
+div#awards .container {
+  padding: 1.5em;
+}
+
+div#awards .container .award {
+  text-align: center;
+  background-color: #003F77;
+  padding: 2em;
+  margin: 2em;
+  border-radius: 10px;
+}
+
+div#awards .container .award h3.award-title {
+  margin: 0;
+  color: white;
+}
+
+div#awards .container .award p.award-issuer {
+  color: #62E3FF;
+}
+
+div#awards .container .award p.award-date {
+  color: #D6D6D6;
+}
+
+div#awards .container .award p.award-blurb {
+  color: #D6D6D6;
+  margin-bottom: 0;
+  margin-top: 2em;
+}
+/*# sourceMappingURL=awards.css.map */

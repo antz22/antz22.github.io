@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=skills.css.map */
+div#skills .container {
+  padding: 1.5em;
+}
+
+div#skills .container .skill {
+  margin: auto;
+  text-align: center;
+  border: 4px solid #62E3FF;
+  padding: 3em;
+  margin: 3em;
+}
+
+div#skills .container .skill .skill-icon img {
+  width: 5.5em;
+  height: 5.5em;
+}
+
+div#skills .container .skill .skill-name {
+  color: #62E3FF;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=skills.css.map */
