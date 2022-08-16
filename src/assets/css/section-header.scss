@@ -1,0 +1,28 @@
+$bg: #002E56;
+$accent: #62E3FF;
+$primary: #fff;
+$secondary: #BEBEBE;
+$tertiary: #A6A6A6;
+$brighter: #D6D6D6;
+$bg-2: #003F77;
+
+
+div.section-header {
+    text-align: center;
+    margin: auto;
+}
+
+h2.section-title {
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid #A1A1A1;
+    line-height: 0.1em;
+    margin: auto;
+}
+
+h2.section-title span {
+    background: $bg;
+    padding: 0 1.5rem;
+    color: $primary;
+}
+

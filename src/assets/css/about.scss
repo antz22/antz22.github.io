@@ -1,0 +1,29 @@
+$bg: #002E56;
+$accent: #62E3FF;
+$primary: #fff;
+$secondary: #BEBEBE;
+$tertiary: #A6A6A6;
+$brighter: #dcc3c3;
+$bg-2: #003F77;
+
+
+div#about > p {
+    color: $tertiary;
+}
+
+div#about > p > span {
+    color: $accent;
+}
+
+
+div.picture-container {
+    margin: auto;
+    text-align: center;
+}
+
+img#picture {
+    width: 13rem;
+    height: 13rem;
+    border: 2px solid $accent;
+    border-radius: 5px;
+}

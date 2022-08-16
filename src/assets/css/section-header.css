@@ -1,0 +1,19 @@
+div.section-header {
+  text-align: center;
+  margin: auto;
+}
+
+h2.section-title {
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid #A1A1A1;
+  line-height: 0.1em;
+  margin: auto;
+}
+
+h2.section-title span {
+  background: #002E56;
+  padding: 0 1.5rem;
+  color: #fff;
+}
+/*# sourceMappingURL=section-header.css.map */

@@ -1,0 +1,20 @@
+div#about > p {
+  color: #A6A6A6;
+}
+
+div#about > p > span {
+  color: #62E3FF;
+}
+
+div.picture-container {
+  margin: auto;
+  text-align: center;
+}
+
+img#picture {
+  width: 13rem;
+  height: 13rem;
+  border: 2px solid #62E3FF;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=about.css.map */
