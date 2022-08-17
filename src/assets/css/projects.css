@@ -77,4 +77,53 @@ div#projects .container .project .project-img:hover {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+
+@media only screen and (min-width: 800px) {
+  div#projects .container {
+    padding: 5.5em;
+  }
+  div#projects .container .project {
+    margin-bottom: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div#projects .container .project .project-card {
+    width: 50%;
+    padding: 1.2em;
+    margin-bottom: 1em;
+  }
+  div#projects .container .project .project-card .title-row {
+    margin-top: 0.2em;
+  }
+  div#projects .container .project .project-card .project-blurb {
+    margin: 3em 0;
+    width: 70%;
+  }
+  div#projects .container .project .project-img {
+    width: 60%;
+    position: absolute;
+    top: 48%;
+    right: 0;
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+    z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  div#projects .container {
+    padding: 7.5em;
+  }
+  div#projects .container .project {
+    margin-bottom: 8em;
+  }
+  div#projects .container .project .project-card .project-blurb {
+    width: 100%;
+  }
+  div#projects .container .project .project-img {
+    width: 60%;
+    z-index: -1;
+  }
+}
 /*# sourceMappingURL=projects.css.map */

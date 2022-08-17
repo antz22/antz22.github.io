@@ -1,6 +1,5 @@
 .navbar {
   padding: 1em;
-  max-width: 1272px;
   margin: auto;
 }
 
@@ -74,5 +73,62 @@
 .navbar .container nav ul.primary-nav > * {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.navbar .container nav .resume-cta {
+  border: 2px solid #62E3FF;
+  border-radius: 2px;
+  padding: 0.5em 0.3em;
+  margin-left: 1em;
+}
+
+.navbar .container nav .resume-cta a {
+  color: #62E3FF;
+}
+
+@media only screen and (min-width: 800px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none !important;
+  }
+  .navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar .container .nav-left {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .navbar .container nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: none;
+    position: unset;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .navbar .container nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+  }
+  .navbar .container nav li {
+    list-style: none;
+  }
+  .navbar .container nav li a {
+    font-family: 'Hack';
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    padding: .1em 1em;
+  }
 }
 /*# sourceMappingURL=navbar.css.map */

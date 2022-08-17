@@ -75,14 +75,62 @@ div#experience {
                         line-height: 1.4;
 
                     }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    div#experience {
+
+        .container {
+            padding: 6.5em;
+
+
+            .experience-card {
+                display: flex;
+                margin-top: 2em;
+                margin-bottom: 6em;
+
+                .experience-img {
+                    margin-right: 2em;
+
+                    img {
+                        width: 8em;
+                        height: 8em;
+
+                    }
 
                 }
 
+                .experience-text {
+
+                    h3.experience-title {
+                        font-size: 1.5em;
+                    }
+
+                    p.experience-company {
+                        margin-top: 0.8em;
+                        margin-bottom: 0.8em;
+                        font-size: 1.2em;
+                    }
+
+                    p.experience-date {
+                        font-size: 1.1em;
+                    }
+
+                    .experience-pt {
+                        margin-bottom: 0.0em;
+                        
+                        p {
+                            margin: 0.65em;
+                        }
+                    }
+                }
             }
-
-
-
-
         }
     }
 }

@@ -53,3 +53,65 @@ div#skills {
     }
 
 }
+
+
+@media only screen and (min-width: 800px) {
+
+    div#skills {
+        
+        .container {
+            padding: 6.5em;
+
+            .skills-container {
+                display: flex;
+                justify-content: space-evenly;
+
+                .skill {
+                    margin: 0.5em;
+                    border: 3px solid $accent;
+                    padding: 2em;
+                    width: 10em;
+
+                    .skill-icon {
+
+                        img {
+                            width: 5.5em;
+                            height: 5.5em;
+                        }
+                    }
+
+
+                    .skill-name {
+                        font-size: 1em;
+                        color: $accent;
+                        margin-bottom: 0;
+                    }
+
+
+                }
+
+
+            }
+
+            .skillbar-container {
+                margin-top: 3em;
+                display: flex;
+
+                .skillbar-col {
+
+                    font-size: 1.0em;
+                    width: 40%;
+                    margin: 1em auto 2em auto;
+
+                    .skillbar-name {
+                        color: white;
+
+                        h4 {
+                            margin-bottom: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

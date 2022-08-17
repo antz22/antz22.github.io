@@ -55,8 +55,30 @@ div#awards {
                 top: -10px;
                 background-color: $hover-bg;
             }
-
         }
+    }
+}
 
+
+@media only screen and (min-width: 800px) {
+
+    div#awards {
+
+        .container {
+            padding: 4.0em;
+
+            .award-row {
+                max-width: 20em;
+                display: flex;
+                justify-content: space-evenly;
+                margin: auto auto 1.0em auto;
+
+                .award {
+                    width: 13em;
+                    height: 16.5em;
+                    padding: 1.8em;
+                }
+            }
+        }
     }
 }

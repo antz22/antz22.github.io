@@ -16,4 +16,13 @@ h2.section-title span {
   padding: 0 1.5rem;
   color: #fff;
 }
+
+@media only screen and (min-width: 800px) {
+  div.section-header {
+    margin: 8em auto 4em auto;
+  }
+  h2.section-title {
+    width: 76%;
+  }
+}
 /*# sourceMappingURL=section-header.css.map */

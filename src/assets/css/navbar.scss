@@ -10,7 +10,6 @@ $bg-2: #003F77;
 
 .navbar {
     padding: 1em;
-    max-width: 1272px;
     margin: auto;
 
     .container {
@@ -83,7 +82,64 @@ $bg-2: #003F77;
                 margin-bottom: auto;
             }
 
+            .resume-cta {
+                border: 2px solid $accent;
+                border-radius: 2px;
+                padding: 0.5em 0.3em;
+                margin-left: 1em;
+
+                a {
+                    color: $accent;
+                }
+            }
+
+
         }
     }
 
+}
+
+@media only screen and (min-width: 800px) {
+
+    .mobile-menu, .mobile-menu-exit {
+        display: none !important;
+    }
+
+    .navbar .container {
+        display: flex;
+    }
+
+    .navbar .container .nav-left {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .navbar .container nav {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        ul {
+            display: flex;
+            margin: auto;
+        }
+
+        li {
+            list-style: none;
+
+            a {
+                font-family: 'Hack';
+                text-decoration: none;
+                color: $primary;
+                font-size: 1em;
+                padding: .1em 1em;
+            }
+        }
+    }
 }

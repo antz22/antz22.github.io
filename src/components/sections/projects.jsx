@@ -57,7 +57,9 @@ function Project(props) {
           ))}
         </div>
       </div>
-      <img className="project-img" src={props.img} alt="Project Banner" />
+      <div className="project-img-container">
+        <img className="project-img" src={props.img} alt="Project Banner" />
+      </div>
     </div>
   );
 }

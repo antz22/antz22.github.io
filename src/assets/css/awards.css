@@ -47,4 +47,25 @@ div#awards .container .award:hover {
   top: -10px;
   background-color: #00539b;
 }
+
+@media only screen and (min-width: 800px) {
+  div#awards .container {
+    padding: 4.0em;
+  }
+  div#awards .container .award-row {
+    max-width: 20em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto auto 1.0em auto;
+  }
+  div#awards .container .award-row .award {
+    width: 13em;
+    height: 16.5em;
+    padding: 1.8em;
+  }
+}
 /*# sourceMappingURL=awards.css.map */

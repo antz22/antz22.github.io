@@ -45,16 +45,28 @@ function Skills() {
       <SectionHeader title="Skills" />
 
       <div className="container">
-        <Skill skill="Cross-Platform Mobile App Development" src={MobileDev} />
-        <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
-        <Skill skill="Full-Stack Web Programming" src={WebDev} />
+        <div className="skills-container">
+          <Skill
+            skill="Cross-Platform Mobile App Development"
+            src={MobileDev}
+          />
+          <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
+          <Skill skill="Full-Stack Web Programming" src={WebDev} />
+        </div>
 
-        <SkillBar name="Python" percent="90" />
-        <SkillBar name="Dart" percent="80" />
-        <SkillBar name="Javascript" percent="65" />
-        <SkillBar name="HTML/CSS" percent="65" />
-        <SkillBar name="C++" percent="50" />
-        <SkillBar name="Java" percent="35" />
+        <div className="skillbar-container">
+          <div className="skillbar-col">
+            <SkillBar name="Python" percent="90" />
+            <SkillBar name="Dart" percent="80" />
+            <SkillBar name="Javascript" percent="65" />
+          </div>
+
+          <div className="skillbar-col">
+            <SkillBar name="HTML/CSS" percent="65" />
+            <SkillBar name="C++" percent="50" />
+            <SkillBar name="Java" percent="35" />
+          </div>
+        </div>
       </div>
     </div>
   );

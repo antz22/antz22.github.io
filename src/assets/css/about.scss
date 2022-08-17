@@ -12,13 +12,17 @@ div#about {
     .container {
         padding: 1.5em;
 
-        p {
-            color: $tertiary;
+        div.about-text {
+            p {
+                color: $tertiary;
 
-            span {
-                color: $accent;
+                span {
+                    color: $accent;
+                }
+
             }
         }
+
 
         div.picture-container {
             margin: auto;
@@ -36,4 +40,21 @@ div#about {
 }
 
 
+@media only screen and (min-width: 800px) {
+    div#about {
 
+        .container {
+            padding-left: 6.5em;
+            padding-right: 6.5em;
+            display: flex;
+
+            div.about-text {
+                margin-right: 5em;
+            }
+
+            img#picture {
+                margin-top: 2em;
+            }
+        }
+    }
+}

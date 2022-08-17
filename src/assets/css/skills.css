@@ -33,4 +33,50 @@ div#skills .container .skillbar .skillbar-name {
 div#skills .container .skillbar .skillbar-name h4 {
   margin-bottom: 1em;
 }
+
+@media only screen and (min-width: 800px) {
+  div#skills .container {
+    padding: 6.5em;
+  }
+  div#skills .container .skills-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  div#skills .container .skills-container .skill {
+    margin: 0.5em;
+    border: 3px solid #62E3FF;
+    padding: 2em;
+    width: 10em;
+  }
+  div#skills .container .skills-container .skill .skill-icon img {
+    width: 5.5em;
+    height: 5.5em;
+  }
+  div#skills .container .skills-container .skill .skill-name {
+    font-size: 1em;
+    color: #62E3FF;
+    margin-bottom: 0;
+  }
+  div#skills .container .skillbar-container {
+    margin-top: 3em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div#skills .container .skillbar-container .skillbar-col {
+    font-size: 1.0em;
+    width: 40%;
+    margin: 1em auto 2em auto;
+  }
+  div#skills .container .skillbar-container .skillbar-col .skillbar-name {
+    color: white;
+  }
+  div#skills .container .skillbar-container .skillbar-col .skillbar-name h4 {
+    margin-bottom: 1em;
+  }
+}
 /*# sourceMappingURL=skills.css.map */

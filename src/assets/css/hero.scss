@@ -13,6 +13,7 @@ $bg-2: #003F77;
         padding: 1.5em;
 
         .greeting {
+            margin-left: 0.3em;
             color: $accent;
             font-family: 'Hack';
         }
@@ -57,7 +58,28 @@ $bg-2: #003F77;
 
         }
     }
+}
+
+@media only screen and (min-width: 800px) {
+    div#hero {
+        .container {
+            padding: 0 6.5em;
+            max-width: 40em;
+
+            .greeting {
+                margin-bottom: 1.0em;
+            }
+
+            .name {
+                margin-bottom: 0.3em;
+            }
+
+            .hero-sentence {
+                margin: 0.5em 0 1em 0;
+            }
+
+        }
 
 
-
+    }
 }

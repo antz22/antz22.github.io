@@ -43,7 +43,7 @@ function Awards() {
       issuer: "PantherHacks",
       date: "May 2022",
       blurb:
-        "Awarded Best Hardware Hack against over 350 competitors. Created Hygenie, a smart public safety system that uses computer vision and arduino components to enforce hygienic hand-washing procedures.",
+        "Awarded Best Hardware Hack against over 350 competitors. Created Hygenie, a public safety system that uses computer vision and arduino to enforce proper hand-washing procedures.",
     },
     {
       title: "2nd Place Overall",
@@ -57,14 +57,14 @@ function Awards() {
       issuer: "hackPHS",
       date: "Nov 2021",
       blurb:
-        "Won 2nd Place Overall at HackPHS, an MLH hackathon with over 150 participants. Created Rello, an inexpensive motorcycle safety system implemented through a machine learning algorithm and user-friendly web interface.",
+        "Won 2nd Place Overall at HackPHS, an MLH hackathon with over 150 participants. Created Rello, an inexpensive motorcycle safety system informed by machine learning and computer vision.",
     },
     {
       title: "Best High School Visualization",
       issuer: "Vizathon 2021",
       date: "Aug 2021",
       blurb:
-        "Awarded best high school award for the Harvard Coronavirus Visualization Team's Vizathon 2021. Mapped global trends in mental health.",
+        "Awarded best high school award for the Harvard Coronavirus Visualization Team's Vizathon 2021. Mapped global trends in mental health using Python data visualization libraries.",
     },
   ];
   return (
@@ -72,9 +72,23 @@ function Awards() {
       <SectionHeader title="Awards" />
 
       <div className="container">
-        {awards.map(({ title, issuer, date, blurb }, index) => (
-          <Award title={title} issuer={issuer} date={date} blurb={blurb} />
-        ))}
+        <div className="award-row">
+          {awards.slice(0, 2).map(({ title, issuer, date, blurb }, index) => (
+            <Award title={title} issuer={issuer} date={date} blurb={blurb} />
+          ))}
+        </div>
+
+        <div className="award-row">
+          {awards.slice(2, 4).map(({ title, issuer, date, blurb }, index) => (
+            <Award title={title} issuer={issuer} date={date} blurb={blurb} />
+          ))}
+        </div>
+
+        <div className="award-row">
+          {awards.slice(4, 6).map(({ title, issuer, date, blurb }, index) => (
+            <Award title={title} issuer={issuer} date={date} blurb={blurb} />
+          ))}
+        </div>
       </div>
     </div>
   );

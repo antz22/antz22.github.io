@@ -40,7 +40,7 @@ function NavBar() {
             <li>
               <a href="/#projects">Projects</a>
             </li>
-            <li>
+            <li className="resume-cta">
               <a href="/">Resume</a>
             </li>
           </ul>
