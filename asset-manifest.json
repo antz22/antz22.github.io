@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8dcbfd97.css",
-    "main.js": "/static/js/main.82c8ab8d.js",
+    "main.css": "/static/css/main.1ce55b44.css",
+    "main.js": "/static/js/main.eee9216e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/arch-linux.png": "/static/media/arch-linux.e7a5f087cf598e784cbf.png",
     "static/media/Hack-Bold.ttf": "/static/media/Hack-Bold.1f083437d9fb0dac875e.ttf",
@@ -35,21 +35,21 @@
     "static/media/stack.svg": "/static/media/stack.c8bc25647859c832e0adcbc41274959b.svg",
     "static/media/mail.svg": "/static/media/mail.720d958ce4a36d7124a59a5f628b0689.svg",
     "static/media/css.svg": "/static/media/css.938e136ff15fc85e5b3f981f958012be.svg",
-    "index.html": "/index.html",
     "static/media/stackoverflow.svg": "/static/media/stackoverflow.2d2a8eea4e0d7470313cfb72347310c4.svg",
     "static/media/firebase.svg": "/static/media/firebase.0340368601102e5a3e24e7592aaea913.svg",
+    "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.3262cd7519204c93c0e5de090a63fb61.svg",
     "static/media/vuejs.svg": "/static/media/vuejs.374f2dbea0bccc7fe713106ece5093b8.svg",
     "static/media/menu.svg": "/static/media/menu.5eef0ab13db4e72d31011156ea3a8773.svg",
     "static/media/exit.svg": "/static/media/exit.8c8e670de1cdb7c5ea6f34dad578042d.svg",
     "static/media/flutter.svg": "/static/media/flutter.e596d2f6dea87c375c597ed537f4c7a4.svg",
     "static/media/chevron.svg": "/static/media/chevron.0d8ebba562b794b76c52fb9e1b51e7b3.svg",
-    "main.8dcbfd97.css.map": "/static/css/main.8dcbfd97.css.map",
-    "main.82c8ab8d.js.map": "/static/js/main.82c8ab8d.js.map",
+    "main.1ce55b44.css.map": "/static/css/main.1ce55b44.css.map",
+    "main.eee9216e.js.map": "/static/js/main.eee9216e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dcbfd97.css",
-    "static/js/main.82c8ab8d.js"
+    "static/css/main.1ce55b44.css",
+    "static/js/main.eee9216e.js"
   ]
 }
