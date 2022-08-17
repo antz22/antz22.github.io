@@ -6,7 +6,7 @@ div.experience .container .experience-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2em;
+  margin-top: 4em;
 }
 
 div.experience .container .experience-card .experience-img {
@@ -47,7 +47,6 @@ div.experience .container .experience-card .experience-text .experience-pt {
   display: -ms-flexbox;
   display: flex;
   font-family: 'Inter';
-  margin-bottom: 0.5em;
   text-align: left;
 }
 
@@ -58,6 +57,7 @@ div.experience .container .experience-card .experience-text .experience-pt img {
 }
 
 div.experience .container .experience-card .experience-text .experience-pt p {
+  margin: 0.7em auto;
   color: #A6A6A6;
   line-height: 1.4;
 }

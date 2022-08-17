@@ -54,7 +54,9 @@ function Experience() {
       date: "Jun 2022 - Aug 2022",
       img: MLIntern,
       pts: [
-        "Used deep learning to model power magnetic core loss with PyTorch, Tensorflow, Pandas, and Numpy.",
+        "Worked on using deep learning to model power magnetic core loss.",
+        "Used the Fast Fourier Transform to develop a novel neural network for time series forecasting, utilizing <20% parameters than LSTM networks with <15% training time.",
+        "Analyzed data down sampling methods for frequency and peak flux density to assess the relative significance of different variables in predicting core loss and to reduce the parameter search space by ~20%.",
       ],
       stack:
         "Used Tensorflow, Keras, PyTorch, Pandas, Numpy, Matplotlib, Scipy, and Scikit-learn.",
@@ -65,7 +67,8 @@ function Experience() {
       date: "Jun 2021 - Aug 2021",
       img: DevIntern,
       pts: [
-        "Developed code for automating the collection of books and their metadata, using Python and Selenium",
+        "Developed scripts to search the web for electronic books and separately obtain their metadata.",
+        "Automated the process with headless web scraper drivers from Python web scraping libraries.",
       ],
       stack:
         "Used Python for the automation scripts and the Selenium Python library for webscraping the book data.",
@@ -76,8 +79,10 @@ function Experience() {
       date: "Jun 2021 - Present",
       img: BoardMember,
       pts: [
-        "Increased meeting attendance by 300%, hosted 4 workshops, organized first hybrid hackathon ever.",
-        "Led team of 20+ members of club in organizing MontyHacks V.",
+        "Increased meeting attendance by 400% with new meeting structures and teaching methods",
+        "Hosted 4 workshops for varying levels of background knowledge, including introductory Python and algorithmic programming.",
+        "Organized first ever hybrid hackathon, MontyHacks V, which attracted over 150 participants from over 30 different schools.",
+        "Led team of 20+ members of club to obtain sponsorships and extend outreach for marketing the MontyHacks V event.",
       ],
       stack:
         "Taught and used beginner and intermediate Python concepts, algorithmic programming, and game development.",
