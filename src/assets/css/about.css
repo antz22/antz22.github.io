@@ -1,5 +1,7 @@
 div#about .container {
   padding: 1.5em;
+  margin: auto;
+  max-width: 700px;
 }
 
 div#about .container div.about-text p {
@@ -35,7 +37,7 @@ div#about .container img#picture {
     margin-right: 5em;
   }
   div#about .container img#picture {
-    margin-top: 2em;
+    margin-top: 0;
   }
 }
 /*# sourceMappingURL=about.css.map */

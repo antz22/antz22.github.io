@@ -37,6 +37,8 @@ div#skills .container .skillbar .skillbar-name h4 {
 @media only screen and (min-width: 800px) {
   div#skills .container {
     padding: 6.5em;
+    max-width: 1080px;
+    margin: auto;
   }
   div#skills .container .skills-container {
     display: -webkit-box;

@@ -52,6 +52,7 @@
   div#hero .container {
     padding: 0 6.5em;
     max-width: 40em;
+    margin: auto;
   }
   div#hero .container .greeting {
     margin-bottom: 1.0em;

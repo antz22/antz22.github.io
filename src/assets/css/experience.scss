@@ -88,12 +88,15 @@ div#experience {
 
         .container {
             padding: 6.5em;
+            max-width: 900px;
+            margin: auto;
 
 
             .experience-card {
                 display: flex;
                 margin-top: 2em;
                 margin-bottom: 6em;
+                justify-content: center;
 
                 .experience-img {
                     margin-right: 2em;

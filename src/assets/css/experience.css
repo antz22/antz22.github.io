@@ -65,6 +65,8 @@ div#experience .container .experience-card .experience-text .experience-pt p {
 @media only screen and (min-width: 800px) {
   div#experience .container {
     padding: 6.5em;
+    max-width: 900px;
+    margin: auto;
   }
   div#experience .container .experience-card {
     display: -webkit-box;
@@ -72,6 +74,9 @@ div#experience .container .experience-card .experience-text .experience-pt p {
     display: flex;
     margin-top: 2em;
     margin-bottom: 6em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   div#experience .container .experience-card .experience-img {
     margin-right: 2em;

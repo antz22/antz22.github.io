@@ -19,6 +19,7 @@ h2.section-title span {
 
 @media only screen and (min-width: 800px) {
   div.section-header {
+    max-width: 1420px;
     margin: 8em auto 4em auto;
   }
   h2.section-title {

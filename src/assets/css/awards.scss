@@ -82,3 +82,26 @@ div#awards {
         }
     }
 }
+
+
+@media only screen and (min-width: 1080px) {
+
+    div#awards {
+
+        .container {
+
+            .award-row {
+                max-width: 70em;
+
+                .award {
+                    width: 18em;
+                    padding: 1.8em;
+
+                    p.award-blurb {
+                        margin-top: 2.4em;
+                    }
+                }
+            }
+        }
+    }
+}
