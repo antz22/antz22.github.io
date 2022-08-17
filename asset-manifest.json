@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01feaa38.css",
-    "main.js": "/static/js/main.a6a1b2c9.js",
+    "main.css": "/static/css/main.2d7fa6a8.css",
+    "main.js": "/static/js/main.e604c733.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/arch-linux.png": "/static/media/arch-linux.e7a5f087cf598e784cbf.png",
     "static/media/Hack-Bold.ttf": "/static/media/Hack-Bold.1f083437d9fb0dac875e.ttf",
@@ -44,12 +44,12 @@
     "static/media/exit.svg": "/static/media/exit.8c8e670de1cdb7c5ea6f34dad578042d.svg",
     "static/media/flutter.svg": "/static/media/flutter.e596d2f6dea87c375c597ed537f4c7a4.svg",
     "static/media/chevron.svg": "/static/media/chevron.0d8ebba562b794b76c52fb9e1b51e7b3.svg",
-    "main.01feaa38.css.map": "/static/css/main.01feaa38.css.map",
-    "main.a6a1b2c9.js.map": "/static/js/main.a6a1b2c9.js.map",
+    "main.2d7fa6a8.css.map": "/static/css/main.2d7fa6a8.css.map",
+    "main.e604c733.js.map": "/static/js/main.e604c733.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01feaa38.css",
-    "static/js/main.a6a1b2c9.js"
+    "static/css/main.2d7fa6a8.css",
+    "static/js/main.e604c733.js"
   ]
 }
