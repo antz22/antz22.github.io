@@ -20,6 +20,8 @@ div#skills {
             margin: 3em;
 
             .skill-icon {
+                display: flex;
+                justify-content: center;
 
                 img {
                     width: 5.5em;
@@ -47,6 +49,16 @@ div#skills {
 
                 h4 {
                     margin-bottom: 1em;
+                }
+            }
+
+            .skillbar-bar {
+
+                .skillbar-lang {
+                    color: $secondary;
+                    font-size: 0.77em;
+                    line-height: 1.4;
+
                 }
             }
 

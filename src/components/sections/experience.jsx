@@ -94,7 +94,7 @@ function Experience() {
       <SectionHeader title="Experience" />
 
       <div className="container">
-        {experiences.map(({ title, company, date, img, pts, stack }, index) => (
+        {experiences.map(({ title, company, date, img, pts, stack }) => (
           <ExperienceCard
             title={title}
             company={company}

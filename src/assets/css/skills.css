@@ -11,6 +11,15 @@ div#skills .container .skill {
   margin: 3em;
 }
 
+div#skills .container .skill .skill-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 div#skills .container .skill .skill-icon img {
   width: 5.5em;
   height: 5.5em;
@@ -38,6 +47,12 @@ div#skills .container .skillbar .skillbar-name {
 
 div#skills .container .skillbar .skillbar-name h4 {
   margin-bottom: 1em;
+}
+
+div#skills .container .skillbar .skillbar-bar .skillbar-lang {
+  color: #BEBEBE;
+  font-size: 0.77em;
+  line-height: 1.4;
 }
 
 @media only screen and (min-width: 800px) {

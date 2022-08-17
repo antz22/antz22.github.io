@@ -73,19 +73,19 @@ function Awards() {
 
       <div className="container">
         <div className="award-row">
-          {awards.slice(0, 2).map(({ title, issuer, date, blurb }, index) => (
+          {awards.slice(0, 2).map(({ title, issuer, date, blurb }) => (
             <Award title={title} issuer={issuer} date={date} blurb={blurb} />
           ))}
         </div>
 
         <div className="award-row">
-          {awards.slice(2, 4).map(({ title, issuer, date, blurb }, index) => (
+          {awards.slice(2, 4).map(({ title, issuer, date, blurb }) => (
             <Award title={title} issuer={issuer} date={date} blurb={blurb} />
           ))}
         </div>
 
         <div className="award-row">
-          {awards.slice(4, 6).map(({ title, issuer, date, blurb }, index) => (
+          {awards.slice(4, 6).map(({ title, issuer, date, blurb }) => (
             <Award title={title} issuer={issuer} date={date} blurb={blurb} />
           ))}
         </div>

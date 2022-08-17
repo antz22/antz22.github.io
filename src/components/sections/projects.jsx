@@ -136,7 +136,7 @@ function Projects() {
       <SectionHeader title="Projects" />
 
       <div className="container">
-        {projects.map(({ title, github, link, blurb, icons, img }, index) => (
+        {projects.map(({ title, github, link, blurb, icons, img }) => (
           <Project
             title={title}
             github={github}
