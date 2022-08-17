@@ -70,7 +70,7 @@ function Experience() {
         "Worked on changing the world, one potato at a time. Ate many potato fries.",
       ],
       stack:
-        "Used Tensorflow, Keras, PyTorch, Pandas, Numpy, Matplotlib, Scipy, and Scikit-learn.",
+        "Used Python for the automation scripts and the Selenium Python library for webscraping the book data.",
     },
     {
       title: "Board Member, Lead Organizer",
@@ -82,7 +82,7 @@ function Experience() {
         "Worked on changing the world, one potato at a time. Ate many potato fries.",
       ],
       stack:
-        "Used Tensorflow, Keras, PyTorch, Pandas, Numpy, Matplotlib, Scipy, and Scikit-learn.",
+        "Taught and used beginner and intermediate Python concepts, algorithmic programming, and game development.",
     },
   ];
 

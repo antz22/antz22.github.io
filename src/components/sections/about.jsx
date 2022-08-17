@@ -32,8 +32,14 @@ function About() {
 
           <p>
             Since then, I have also expanded my interests to <span>AI</span> and{" "}
-            <span>ML research</span>, conducting novel research that has been
-            published in <span>IEEE</span>.
+            <span>ML research</span>, conducting novel research on automating
+            sustainable practices that has been published in <span>IEEE</span>.
+          </p>
+
+          <p>
+            In the future, I hope to use technology to <span>innovate</span>{" "}
+            towards our generations most pressing issues of climate change,
+            colonizing Mars, and beyond.
           </p>
         </div>
         <div className="picture-container">

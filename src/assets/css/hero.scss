@@ -21,13 +21,13 @@ div.hero {
 
         .name {
             color: white;
-            font-size: 2.6em;
+            font-size: 8vw;
             margin: 0;
         }
 
         .hero-sentence {
             color: $secondary;
-            font-size: 2.2em;
+            font-size: 6.6vw;
             margin: 0.5em 0 1em 0;
         }
 
@@ -61,23 +61,44 @@ div.hero {
     }
 }
 
+@media only screen and (min-width: 650px) {
+    div.hero {
+        .container {
+
+            .greeting {
+                margin-left: 0.5em;
+            }
+
+            .name {
+                font-size: 6vw;
+            }
+
+            .hero-sentence {
+                font-size: 5.2vw;
+            }
+        }
+    }
+}
+
+
 @media only screen and (min-width: 800px) {
     div.hero {
         .container {
             padding: 0 6.5em;
-            max-width: 40em;
+            max-width: 1080px;
             margin: auto;
 
             .greeting {
-                margin-bottom: 1.0em;
-            }
-
-            .name {
-                margin-bottom: 0.3em;
+                margin-bottom: 1.2em;
             }
 
             .hero-sentence {
-                margin: 0.5em 0 1em 0;
+                margin: 0.2em 0 0.5em 0;
+            }
+
+            .desc {
+                margin: 0 0 1.5em 0;
+                width: 80%;
             }
         }
     }

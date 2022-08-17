@@ -12,16 +12,17 @@ div.about {
     .container {
         padding: 1.5em;
         margin: auto;
-        max-width: 700px;
+        max-width: 770px;
 
         div.about-text {
             p {
-                color: $tertiary;
+
+                line-height: 1.5;
+                color: $secondary;
 
                 span {
                     color: $accent;
                 }
-
             }
         }
 

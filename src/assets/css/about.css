@@ -1,11 +1,12 @@
 div.about .container {
   padding: 1.5em;
   margin: auto;
-  max-width: 700px;
+  max-width: 770px;
 }
 
 div.about .container div.about-text p {
-  color: #A6A6A6;
+  line-height: 1.5;
+  color: #BEBEBE;
 }
 
 div.about .container div.about-text p span {
