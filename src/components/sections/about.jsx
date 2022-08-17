@@ -39,7 +39,7 @@ function About() {
           <p>
             In the future, I hope to use technology to <span>innovate</span>{" "}
             towards our generations most pressing issues of climate change,
-            colonizing Mars, and beyond.
+            colonizing Mars, and <span>beyond</span>.
           </p>
         </div>
         <div className="picture-container">

@@ -54,8 +54,7 @@ function Experience() {
       date: "Jun 2022 - Aug 2022",
       img: MLIntern,
       pts: [
-        "Worked on changing the world, one potato at a time. Ate many potato fries.",
-        "Worked on changing the world, one potato at a time. Ate many potato fries.",
+        "Used deep learning to model power magnetic core loss with PyTorch, Tensorflow, Pandas, and Numpy.",
       ],
       stack:
         "Used Tensorflow, Keras, PyTorch, Pandas, Numpy, Matplotlib, Scipy, and Scikit-learn.",
@@ -66,8 +65,7 @@ function Experience() {
       date: "Jun 2021 - Aug 2021",
       img: DevIntern,
       pts: [
-        "Worked on changing the world, one potato at a time. Ate many potato fries.",
-        "Worked on changing the world, one potato at a time. Ate many potato fries.",
+        "Developed code for automating the collection of books and their metadata, using Python and Selenium",
       ],
       stack:
         "Used Python for the automation scripts and the Selenium Python library for webscraping the book data.",
@@ -78,8 +76,8 @@ function Experience() {
       date: "Jun 2021 - Present",
       img: BoardMember,
       pts: [
-        "Worked on changing the world, one potato at a time. Ate many potato fries.",
-        "Worked on changing the world, one potato at a time. Ate many potato fries.",
+        "Increased meeting attendance by 300%, hosted 4 workshops, organized first hybrid hackathon ever.",
+        "Led team of 20+ members of club in organizing MontyHacks V.",
       ],
       stack:
         "Taught and used beginner and intermediate Python concepts, algorithmic programming, and game development.",
