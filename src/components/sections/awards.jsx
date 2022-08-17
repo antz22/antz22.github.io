@@ -69,7 +69,12 @@ function Awards() {
   ];
   return (
     <div className="awards">
-      <SectionHeader title="Awards" />
+      <SectionHeader
+        title="Awards"
+        aos="fade-up"
+        offset="20px"
+        duration="600"
+      />
 
       <div className="container">
         <div className="award-row">

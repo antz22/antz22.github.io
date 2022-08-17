@@ -133,7 +133,12 @@ function Projects() {
 
   return (
     <div className="projects">
-      <SectionHeader title="Projects" />
+      <SectionHeader
+        title="Projects"
+        aos="fade-up"
+        offset="20px"
+        duration="600"
+      />
 
       <div className="container">
         {projects.map(({ title, github, link, blurb, icons, img }) => (

@@ -91,7 +91,12 @@ function Experience() {
 
   return (
     <div className="experience">
-      <SectionHeader title="Experience" />
+      <SectionHeader
+        title="Experience"
+        aos="fade-up"
+        offset="20px"
+        duration="1000"
+      />
 
       <div className="container">
         {experiences.map(({ title, company, date, img, pts, stack }) => (

@@ -68,7 +68,12 @@ function Skills() {
 
   return (
     <div id="skills">
-      <SectionHeader title="Skills" />
+      <SectionHeader
+        title="Skills"
+        aos="fade-up"
+        offset="20px"
+        duration="1000"
+      />
 
       <div className="container">
         <div className="skills-container">
