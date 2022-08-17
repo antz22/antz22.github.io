@@ -93,7 +93,7 @@ function Experience() {
     <div className="experience">
       <SectionHeader
         title="Experience"
-        aos="fade-up"
+        aos="fade-right"
         offset="20px"
         duration="1000"
       />

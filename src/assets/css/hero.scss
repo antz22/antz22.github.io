@@ -103,3 +103,27 @@ div.hero {
         }
     }
 }
+
+
+@media only screen and (min-width: 1200px) {
+    div.hero {
+        .container {
+            height: 100vh;
+            margin-top: -10vh;
+            align-items: center;
+            display: flex;
+
+            .content-container {
+                margin: auto;
+
+                .name {
+                    font-size: 4.5em;
+                }
+
+                .hero-sentence {
+                    font-size: 3.9em;
+                }
+            }
+        }
+    }
+}

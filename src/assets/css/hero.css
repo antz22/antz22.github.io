@@ -77,4 +77,26 @@ div.hero .container a .github-cta:hover {
     width: 80%;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  div.hero .container {
+    height: 100vh;
+    margin-top: -10vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.hero .container .content-container {
+    margin: auto;
+  }
+  div.hero .container .content-container .name {
+    font-size: 4.5em;
+  }
+  div.hero .container .content-container .hero-sentence {
+    font-size: 3.9em;
+  }
+}
 /*# sourceMappingURL=hero.css.map */

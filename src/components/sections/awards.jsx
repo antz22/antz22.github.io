@@ -71,7 +71,7 @@ function Awards() {
     <div className="awards">
       <SectionHeader
         title="Awards"
-        aos="fade-up"
+        aos="fade-left"
         offset="20px"
         duration="600"
       />
