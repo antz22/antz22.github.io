@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.51f4a82a.css",
+    "main.css": "/static/css/main.b4d6d51f.css",
     "main.js": "/static/js/main.cfd1e99d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/arch-linux.png": "/static/media/arch-linux.e7a5f087cf598e784cbf.png",
@@ -44,12 +44,12 @@
     "static/media/exit.svg": "/static/media/exit.8c8e670de1cdb7c5ea6f34dad578042d.svg",
     "static/media/flutter.svg": "/static/media/flutter.e596d2f6dea87c375c597ed537f4c7a4.svg",
     "static/media/chevron.svg": "/static/media/chevron.0d8ebba562b794b76c52fb9e1b51e7b3.svg",
-    "main.51f4a82a.css.map": "/static/css/main.51f4a82a.css.map",
+    "main.b4d6d51f.css.map": "/static/css/main.b4d6d51f.css.map",
     "main.cfd1e99d.js.map": "/static/js/main.cfd1e99d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51f4a82a.css",
+    "static/css/main.b4d6d51f.css",
     "static/js/main.cfd1e99d.js"
   ]
 }
