@@ -87,7 +87,7 @@ function Experience() {
   ];
 
   return (
-    <div id="experience">
+    <div className="experience">
       <SectionHeader title="Experience" />
 
       <div className="container">

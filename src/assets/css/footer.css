@@ -1,32 +1,32 @@
-div#footer .container {
+div.footer .container {
   padding: 1.5em;
   text-align: center;
   margin: auto;
   font-family: 'Hack';
 }
 
-div#footer .container h2.footer-heading {
+div.footer .container h2.footer-heading {
   color: white;
   margin-bottom: 5em;
   margin-top: 5em;
 }
 
-div#footer .container div.footer-bottom .socials {
+div.footer .container div.footer-bottom .socials {
   margin-bottom: 1.7em;
 }
 
-div#footer .container div.footer-bottom .socials img {
+div.footer .container div.footer-bottom .socials img {
   width: 1.8em;
   height: 1.8em;
   margin: 0.7em;
 }
 
-div#footer .container div.footer-bottom p.footer-mark {
+div.footer .container div.footer-bottom p.footer-mark {
   color: #D6D6D6;
   font-size: 0.9em;
 }
 
-div#footer .container div.footer-bottom p.footer-year {
+div.footer .container div.footer-bottom p.footer-year {
   width: 50%;
   text-align: center;
   border-bottom: 1px solid #A1A1A1;
@@ -34,7 +34,7 @@ div#footer .container div.footer-bottom p.footer-year {
   margin: 3.0em auto 5em auto;
 }
 
-div#footer .container div.footer-bottom p.footer-year span {
+div.footer .container div.footer-bottom p.footer-year span {
   background: #002E56;
   padding: 0 1.5rem;
   color: #62E3FF;

@@ -12,10 +12,14 @@ function App() {
     <div>
       <NavBar />
       <Hero />
+      <span id="about" />
       <About />
       <Skills />
+      <span id="experience" />
       <Experience />
+      <span id="awards" />
       <Awards />
+      <span id="projects" />
       <Projects />
       <Footer />
     </div>

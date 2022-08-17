@@ -8,7 +8,7 @@ $bg-2: #003F77;
 $bg-3: #023868;
 $hover-bg: #00539b;
 
-div#projects {
+div.projects {
 
     .container {
         padding: 1.5em;
@@ -144,7 +144,7 @@ div#projects {
 
 @media only screen and (min-width: 1080px) {
 
-    div#projects {
+    div.projects {
 
         .container {
             padding: 7.5em;

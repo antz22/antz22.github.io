@@ -11,7 +11,7 @@ function About() {
   }, []);
 
   return (
-    <div id="about" data-aos="fade-up">
+    <div className="about" data-aos="fade-up">
       <SectionHeader title="About" />
       <div className="container">
         <div className="about-text">

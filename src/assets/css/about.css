@@ -1,23 +1,23 @@
-div#about .container {
+div.about .container {
   padding: 1.5em;
   margin: auto;
   max-width: 700px;
 }
 
-div#about .container div.about-text p {
+div.about .container div.about-text p {
   color: #A6A6A6;
 }
 
-div#about .container div.about-text p span {
+div.about .container div.about-text p span {
   color: #62E3FF;
 }
 
-div#about .container div.picture-container {
+div.about .container div.picture-container {
   margin: auto;
   text-align: center;
 }
 
-div#about .container img#picture {
+div.about .container img#picture {
   margin-top: 2em;
   width: 13rem;
   height: 13rem;
@@ -26,17 +26,17 @@ div#about .container img#picture {
 }
 
 @media only screen and (min-width: 800px) {
-  div#about .container {
+  div.about .container {
     padding-left: 6.5em;
     padding-right: 6.5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  div#about .container div.about-text {
+  div.about .container div.about-text {
     margin-right: 5em;
   }
-  div#about .container img#picture {
+  div.about .container img#picture {
     margin-top: 0;
   }
 }

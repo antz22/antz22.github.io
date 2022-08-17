@@ -1,38 +1,38 @@
-#hero .container {
+div.hero .container {
   padding: 1.5em;
 }
 
-#hero .container .greeting {
+div.hero .container .greeting {
   margin-left: 0.3em;
   color: #62E3FF;
   font-family: 'Hack';
 }
 
-#hero .container .name {
+div.hero .container .name {
   color: white;
   font-size: 2.6em;
   margin: 0;
 }
 
-#hero .container .hero-sentence {
+div.hero .container .hero-sentence {
   color: #BEBEBE;
   font-size: 2.2em;
   margin: 0.5em 0 1em 0;
 }
 
-#hero .container .desc {
+div.hero .container .desc {
   color: #BEBEBE;
   line-height: 1.5;
 }
 
-#hero .container a {
+div.hero .container a {
   text-decoration: none;
   color: #62E3FF;
   font-size: 1.1em;
   font-family: 'Hack';
 }
 
-#hero .container a .github-cta {
+div.hero .container a .github-cta {
   border: 2px solid #62E3FF;
   color: #62E3FF;
   display: inline-block;
@@ -42,25 +42,25 @@
   transition: 0.2s;
 }
 
-#hero .container a .github-cta:hover {
+div.hero .container a .github-cta:hover {
   background-color: #004683;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 @media only screen and (min-width: 800px) {
-  div#hero .container {
+  div.hero .container {
     padding: 0 6.5em;
     max-width: 40em;
     margin: auto;
   }
-  div#hero .container .greeting {
+  div.hero .container .greeting {
     margin-bottom: 1.0em;
   }
-  div#hero .container .name {
+  div.hero .container .name {
     margin-bottom: 0.3em;
   }
-  div#hero .container .hero-sentence {
+  div.hero .container .hero-sentence {
     margin: 0.5em 0 1em 0;
   }
 }

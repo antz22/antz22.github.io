@@ -31,11 +31,15 @@
   cursor: pointer;
 }
 
+.navbar .container nav.menu-btn {
+  display: block !important;
+}
+
 .navbar .container nav {
   display: none;
   position: fixed;
   z-index: 1000;
-  width: 56%;
+  width: 50%;
   right: 0;
   top: 0;
   height: 100vh;
@@ -44,13 +48,18 @@
 }
 
 .navbar .container nav ul {
-  margin-top: 5em;
+  margin-top: 6em;
+}
+
+.navbar .container nav li {
+  list-style: none;
 }
 
 .navbar .container nav li a {
+  text-decoration: none;
   display: block;
   color: white;
-  padding: .5em 2em .5em .5em;
+  margin: 1em auto;
   font-size: 1.3em;
   font-weight: normal;
   text-align: right;
@@ -59,14 +68,18 @@
 }
 
 .navbar .container nav li a:hover {
-  font-weight: bold;
-  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #62E3FF;
 }
 
 .navbar .container nav .mobile-menu-exit {
   float: right;
   display: block;
-  margin: 2em 2.3em 2em 0;
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: 1em;
+  margin-bottom: auto;
   cursor: pointer;
 }
 
@@ -76,13 +89,16 @@
 }
 
 .navbar .container nav .resume-cta {
-  border: 2px solid #62E3FF;
-  border-radius: 2px;
-  padding: 0.5em 0.3em;
-  margin-left: 1em;
+  padding: 0.8em 0.9em;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: right;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-family: 'Hack';
 }
 
-.navbar .container nav .resume-cta a {
+.navbar .container nav .resume-cta li {
   color: #62E3FF;
 }
 
@@ -129,6 +145,25 @@
     color: #fff;
     font-size: 1em;
     padding: .1em 1em;
+  }
+  .navbar .container nav .resume-cta {
+    border: 2px solid #62E3FF;
+    border-radius: 2px;
+    padding: 0.8em 0.9em;
+    margin-left: 1em;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    text-decoration: none;
+    font-family: 'Hack';
+    font-size: 1em;
+  }
+  .navbar .container nav .resume-cta li {
+    color: #62E3FF;
+  }
+  .navbar .container nav .resume-cta:hover {
+    background-color: #004683;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
   }
 }
 /*# sourceMappingURL=navbar.css.map */

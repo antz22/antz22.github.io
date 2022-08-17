@@ -1,12 +1,12 @@
-div#projects .container {
+div.projects .container {
   padding: 1.5em;
 }
 
-div#projects .container .project {
+div.projects .container .project {
   margin-bottom: 4em;
 }
 
-div#projects .container .project .project-card {
+div.projects .container .project .project-card {
   background-color: #023868;
   border-radius: 10px;
   color: white;
@@ -16,53 +16,53 @@ div#projects .container .project .project-card {
   transition: 0.2s;
 }
 
-div#projects .container .project .project-card .title-row {
+div.projects .container .project .project-card .title-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 0.2em;
 }
 
-div#projects .container .project .project-card .title-row h3.project-title {
+div.projects .container .project .project-card .title-row h3.project-title {
   margin: 0;
 }
 
-div#projects .container .project .project-card .title-row a.project-github {
+div.projects .container .project .project-card .title-row a.project-github {
   margin-left: 1.5em;
 }
 
-div#projects .container .project .project-card .title-row a.project-github img {
+div.projects .container .project .project-card .title-row a.project-github img {
   width: 1.3em;
   height: 1.3em;
 }
 
-div#projects .container .project .project-card .title-row a.project-link {
+div.projects .container .project .project-card .title-row a.project-link {
   margin-left: 1.0em;
 }
 
-div#projects .container .project .project-card .title-row a.project-link img {
+div.projects .container .project .project-card .title-row a.project-link img {
   width: 1.3em;
   height: 1.3em;
 }
 
-div#projects .container .project .project-card .project-blurb {
+div.projects .container .project .project-card .project-blurb {
   color: #D6D6D6;
   margin: 2em 0;
 }
 
-div#projects .container .project .project-card .project-icons .project-icon {
+div.projects .container .project .project-card .project-icons .project-icon {
   width: 1.7em;
   height: 1.7em;
   margin-right: 0.5em;
 }
 
-div#projects .container .project .project-card:hover {
+div.projects .container .project .project-card:hover {
   background-color: #00539b;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
-div#projects .container .project .project-img {
+div.projects .container .project .project-img {
   border-radius: 10px;
   width: 100%;
   -webkit-filter: brightness(0.8);
@@ -71,7 +71,7 @@ div#projects .container .project .project-img {
   transition: 0.2s;
 }
 
-div#projects .container .project .project-img:hover {
+div.projects .container .project .project-img:hover {
   -webkit-filter: brightness(1);
           filter: brightness(1);
   -webkit-transition: 0.2s;
@@ -112,18 +112,18 @@ div#projects .container .project .project-img:hover {
 }
 
 @media only screen and (min-width: 1080px) {
-  div#projects .container {
+  div.projects .container {
     padding: 7.5em;
     max-width: 1080px;
     margin: auto;
   }
-  div#projects .container .project {
+  div.projects .container .project {
     margin-bottom: 12em;
   }
-  div#projects .container .project .project-card .project-blurb {
+  div.projects .container .project .project-card .project-blurb {
     width: 100%;
   }
-  div#projects .container .project .project-img {
+  div.projects .container .project .project-img {
     width: 60%;
     z-index: -1;
   }

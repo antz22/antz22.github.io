@@ -132,7 +132,7 @@ function Projects() {
   ];
 
   return (
-    <div id="projects">
+    <div className="projects">
       <SectionHeader title="Projects" />
 
       <div className="container">

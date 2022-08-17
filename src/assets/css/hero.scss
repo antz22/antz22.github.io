@@ -5,9 +5,10 @@ $secondary: #BEBEBE;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
+$btn-hover: #004683;
 
 
-#hero {
+div.hero {
 
     .container {
         padding: 1.5em;
@@ -50,7 +51,7 @@ $bg-2: #003F77;
                 transition: 0.2s;
 
                 &:hover {
-                    background-color: #004683;
+                    background-color: $btn-hover;
                     transition: 0.2s;
                 }
 
@@ -61,7 +62,7 @@ $bg-2: #003F77;
 }
 
 @media only screen and (min-width: 800px) {
-    div#hero {
+    div.hero {
         .container {
             padding: 0 6.5em;
             max-width: 40em;
@@ -78,9 +79,6 @@ $bg-2: #003F77;
             .hero-sentence {
                 margin: 0.5em 0 1em 0;
             }
-
         }
-
-
     }
 }

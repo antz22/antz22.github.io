@@ -15,7 +15,7 @@ function Footer() {
   }, []);
 
   return (
-    <div id="footer">
+    <div className="footer">
       <div className="container">
         <h2
           className="footer-heading"

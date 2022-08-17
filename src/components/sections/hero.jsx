@@ -2,7 +2,7 @@ import "../../assets/css/hero.css";
 
 function Hero() {
   return (
-    <div id="hero">
+    <div className="hero">
       <div className="container">
         <p className="greeting">Hi! My name is</p>
         <h1 className="name">Anthony Zhai.</h1>

@@ -8,7 +8,7 @@ $bg-2: #003F77;
 
 
 
-div#experience {
+div.experience {
 
     .container {
         padding: 1.5em;
@@ -84,7 +84,7 @@ div#experience {
 
 @media only screen and (min-width: 800px) {
 
-    div#experience {
+    div.experience {
 
         .container {
             padding: 6.5em;

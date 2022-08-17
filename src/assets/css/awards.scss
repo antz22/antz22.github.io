@@ -7,7 +7,7 @@ $brighter: #D6D6D6;
 $bg-2: #003F77;
 $hover-bg: #00539b;
 
-div#awards {
+div.awards {
 
     .container {
         padding: 1.5em;
@@ -62,7 +62,7 @@ div#awards {
 
 @media only screen and (min-width: 800px) {
 
-    div#awards {
+    div.awards {
 
         .container {
             padding: 4.0em;
@@ -86,7 +86,7 @@ div#awards {
 
 @media only screen and (min-width: 1080px) {
 
-    div#awards {
+    div.awards {
 
         .container {
 

@@ -5,6 +5,7 @@ $secondary: #BEBEBE;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
+$btn-hover: #004683;
 
 
 
@@ -35,12 +36,16 @@ $bg-2: #003F77;
             cursor: pointer;
         }
 
+        nav.menu-btn {
+            display: block !important;
+        }
+
         nav {
             display: none;
 
             position: fixed;
             z-index: 1000;
-            width: 56%;
+            width: 50%;
             right: 0;
             top: 0;
             height: 100vh;
@@ -48,24 +53,25 @@ $bg-2: #003F77;
             background-color: $bg-2;
 
             ul {
-                margin-top: 5em;
+                margin-top: 6em;
             }
 
             li {
+                list-style: none;
 
                 a {
+                    text-decoration: none;
                     display: block;
                     color: white;
-                    padding: .5em 2em .5em .5em;
+                    margin: 1em auto;
                     font-size: 1.3em;
                     font-weight: normal;
                     text-align: right;
-
                     transition: 0.4s;
 
                     &:hover {
-                        font-weight: bold;
-                        color: white;
+                        transition: 0.4s;
+                        color: $accent;
                     }
                 }
             }
@@ -73,7 +79,10 @@ $bg-2: #003F77;
             .mobile-menu-exit {
                 float: right;
                 display: block;
-                margin: 2em 2.3em 2em 0;
+                width: 2.5em;
+                height: 2.5em;
+                margin-top: 1em;
+                margin-bottom: auto;
                 cursor: pointer;
             }
 
@@ -83,20 +92,19 @@ $bg-2: #003F77;
             }
 
             .resume-cta {
-                border: 2px solid $accent;
-                border-radius: 2px;
-                padding: 0.5em 0.3em;
-                margin-left: 1em;
+                padding: 0.8em 0.9em;
+                transition: 0.2s;
+                text-align: right;
+                font-size: 1.3em;
+                text-decoration: none;
+                font-family: 'Hack';
 
-                a {
+                li {
                     color: $accent;
                 }
             }
-
-
         }
     }
-
 }
 
 @media only screen and (min-width: 800px) {
@@ -139,6 +147,26 @@ $bg-2: #003F77;
                 color: $primary;
                 font-size: 1em;
                 padding: .1em 1em;
+            }
+        }
+
+        .resume-cta {
+            border: 2px solid $accent;
+            border-radius: 2px;
+            padding: 0.8em 0.9em;
+            margin-left: 1em;
+            transition: 0.2s;
+            text-decoration: none;
+            font-family: 'Hack';
+            font-size: 1em;
+
+            li {
+                color: $accent;
+            }
+
+            &:hover {
+                background-color: $btn-hover;
+                transition: 0.2s;
             }
         }
     }

@@ -68,7 +68,7 @@ function Awards() {
     },
   ];
   return (
-    <div id="awards">
+    <div className="awards">
       <SectionHeader title="Awards" />
 
       <div className="container">
