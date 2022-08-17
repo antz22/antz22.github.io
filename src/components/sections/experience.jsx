@@ -55,7 +55,7 @@ function Experience() {
       img: MLIntern,
       pts: [
         "Worked on using deep learning to model power magnetic core loss.",
-        "Used the Fast Fourier Transform to develop a novel neural network for time series forecasting, utilizing <20% parameters than LSTM networks with <15% training time.",
+        "Used the Fast Fourier Transform to develop a novel neural network for time series forecasting, utilizing <20% parameters than LSTM networks with <15% training time and equal performance.",
         "Analyzed data down sampling methods for frequency and peak flux density to assess the relative significance of different variables in predicting core loss and to reduce the parameter search space by ~20%.",
       ],
       stack:

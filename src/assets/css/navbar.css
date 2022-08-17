@@ -53,16 +53,16 @@
 
 .navbar .container nav li {
   list-style: none;
+  text-align: right;
 }
 
 .navbar .container nav li a {
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: white;
-  margin: 1em auto;
+  margin: 0.5em auto;
   font-size: 1.3em;
   font-weight: normal;
-  text-align: right;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -70,6 +70,19 @@
 .navbar .container nav li a:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  color: #62E3FF;
+}
+
+.navbar .container nav .resume-cta {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-align: right;
+  text-decoration: none;
+  font-family: 'Hack';
+  margin-top: 2em !important;
+}
+
+.navbar .container nav .resume-cta a {
   color: #62E3FF;
 }
 
@@ -86,20 +99,6 @@
 .navbar .container nav ul.primary-nav > * {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.navbar .container nav .resume-cta {
-  padding: 0.8em 0.9em;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  text-align: right;
-  font-size: 1.3em;
-  text-decoration: none;
-  font-family: 'Hack';
-}
-
-.navbar .container nav .resume-cta li {
-  color: #62E3FF;
 }
 
 @media only screen and (min-width: 800px) {
@@ -149,16 +148,17 @@
   .navbar .container nav .resume-cta {
     border: 2px solid #62E3FF;
     border-radius: 2px;
-    padding: 0.8em 0.9em;
     margin-left: 1em;
+    margin-top: auto !important;
     -webkit-transition: 0.2s;
     transition: 0.2s;
     text-decoration: none;
     font-family: 'Hack';
     font-size: 1em;
   }
-  .navbar .container nav .resume-cta li {
-    color: #62E3FF;
+  .navbar .container nav .resume-cta a {
+    padding: 0.8em 0.9em;
+    margin: 0;
   }
   .navbar .container nav .resume-cta:hover {
     background-color: #004683;

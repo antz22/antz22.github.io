@@ -56,14 +56,11 @@ function NavBar() {
             <li>
               <a href="/#projects">Projects</a>
             </li>
-            <a
-              className="resume-cta"
-              href="/resume.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <li>Resume</li>
-            </a>
+            <li className="resume-cta">
+              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+                Resume
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
