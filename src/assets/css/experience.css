@@ -10,12 +10,12 @@ div.experience .container .experience-card {
 }
 
 div.experience .container .experience-card .experience-img {
-  margin-right: 1.5em;
+  margin-right: 1.2em;
 }
 
 div.experience .container .experience-card .experience-img img {
-  width: 5em;
-  height: 5em;
+  width: 4.5em;
+  height: 4.5em;
 }
 
 div.experience .container .experience-card .experience-text {
@@ -61,6 +61,16 @@ div.experience .container .experience-card .experience-text .experience-pt p {
   color: #A6A6A6;
   line-height: 1.4;
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  div.experience .container .experience-card .experience-img {
+    margin-right: 1.5em;
+  }
+  div.experience .container .experience-card .experience-img img {
+    width: 6em;
+    height: 6em;
+  }
 }
 
 @media only screen and (min-width: 800px) {
