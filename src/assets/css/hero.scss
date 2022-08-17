@@ -12,6 +12,10 @@ div.hero {
 
     .container {
         padding: 1.5em;
+        height: 100vh;
+        margin-top: -15vh;
+        align-items: center;
+        display: flex;
 
         .greeting {
             margin-left: 0.3em;
@@ -64,6 +68,7 @@ div.hero {
 @media only screen and (min-width: 650px) {
     div.hero {
         .container {
+            margin-top: -10vh !important;
 
             .greeting {
                 margin-left: 0.5em;
@@ -108,13 +113,8 @@ div.hero {
 @media only screen and (min-width: 1200px) {
     div.hero {
         .container {
-            height: 100vh;
-            margin-top: -10vh;
-            align-items: center;
-            display: flex;
 
             .content-container {
-                margin: auto;
 
                 .name {
                     font-size: 4.5em;
