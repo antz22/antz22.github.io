@@ -1,7 +1,7 @@
 div.hero .container {
   padding: 1.5em;
   height: 100vh;
-  margin-top: -15vh;
+  margin-top: -6.3em !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -57,9 +57,6 @@ div.hero .container a .github-cta:hover {
 }
 
 @media only screen and (min-width: 650px) {
-  div.hero .container {
-    margin-top: -10vh !important;
-  }
   div.hero .container .greeting {
     margin-left: 0.5em;
   }
