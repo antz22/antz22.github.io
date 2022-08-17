@@ -1,7 +1,4 @@
 import "../../assets/css/footer.css";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import Email from "../../assets/icons/mail.svg";
 import Github from "../../assets/icons/github.svg";
@@ -10,10 +7,6 @@ import Instagram from "../../assets/icons/instagram.svg";
 import StackOverflow from "../../assets/icons/stackoverflow.svg";
 
 function Footer() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className="footer">
       <div className="container">

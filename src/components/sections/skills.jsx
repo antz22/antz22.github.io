@@ -4,17 +4,8 @@ import SectionHeader from "../section-header";
 import MobileDev from "../../assets/icons/mobile-dev.svg";
 import AI from "../../assets/icons/ai.svg";
 import WebDev from "../../assets/icons/web-dev.svg";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Skill(props) {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
-
   return (
     <div className="skill" data-aos="fade-up" data-aos-duration="1000">
       <div className="skill-icon">

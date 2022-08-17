@@ -1,8 +1,5 @@
 import "../../assets/css/projects.css";
 import SectionHeader from "../section-header";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 import Github from "../../assets/logos/github.svg";
 import Link from "../../assets/icons/link.svg";
@@ -30,10 +27,6 @@ import OneFocus from "../../assets/images/onefocus.png";
 import ArchLinux from "../../assets/images/arch-linux.png";
 
 function Project(props) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className="project" data-aos="fade-up" data-aos-duration="600">
       <div className="project-card">

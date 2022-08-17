@@ -1,15 +1,8 @@
 import SectionHeader from "../section-header";
 import Picture from "../../assets/images/picture.png";
 import "../../assets/css/about.css";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function About() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className="about" data-aos="fade-up">
       <SectionHeader title="About" />

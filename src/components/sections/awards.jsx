@@ -1,14 +1,7 @@
 import "../../assets/css/awards.css";
 import SectionHeader from "../section-header";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Award(props) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div className="aos-award" data-aos="fade-left" data-aos-duration="600">
       <div className="award">

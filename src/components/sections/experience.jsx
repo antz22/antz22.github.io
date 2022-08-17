@@ -7,15 +7,7 @@ import MLIntern from "../../assets/icons/ml-intern.svg";
 import DevIntern from "../../assets/icons/dev-intern.svg";
 import BoardMember from "../../assets/icons/board-member.svg";
 
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 function ExperienceCard(props) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <div
       className="experience-card"
