@@ -11,8 +11,8 @@ $btn-hover: #004683;
 div.hero {
 
     .container {
-        padding: 0 1.5em;
-        height: 100vh;
+        padding: 1.0em 1.5em;
+        height: 40em;
         margin-top: -6.3em !important;
         align-items: center;
         display: flex;
@@ -68,7 +68,10 @@ div.hero {
 @media only screen and (min-width: 650px) {
     div.hero {
         .container {
+            height: 100vh;
             margin-top: -6.3em !important;
+            align-items: center;
+            display: flex;
 
             .greeting {
                 margin-left: 0.5em;
