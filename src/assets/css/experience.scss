@@ -21,8 +21,8 @@ div.experience {
                 margin-right: 1.5em;
 
                 img {
-                    width: 6em;
-                    height: 6em;
+                    width: 5em;
+                    height: 5em;
                 }
 
             }
@@ -58,7 +58,7 @@ div.experience {
                     text-align: left;
 
                     img {
-                        margin: auto 0.65em auto 0;
+                        margin: auto 0.55em auto 0;
                         width: 2em;
                         height: 2em;
                     }
@@ -67,6 +67,7 @@ div.experience {
                         margin: 0.7em auto;
                         color: $tertiary;
                         line-height: 1.4;
+                        width: 100%;
                     }
                 }
             }

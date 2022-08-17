@@ -31,6 +31,8 @@ div#skills {
             .skill-name {
                 color: $accent;
                 margin-bottom: 0;
+                display: flex;
+                justify-content: center;
             }
 
 

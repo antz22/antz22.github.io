@@ -19,6 +19,12 @@ div#skills .container .skill .skill-icon img {
 div#skills .container .skill .skill-name {
   color: #62E3FF;
   margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 div#skills .container .skillbar {
