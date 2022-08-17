@@ -13,9 +13,13 @@
 
 body {
   margin: 0;
-  overflow-x: hidden;
   font-family: 'Inter', 'Hack', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #002E56;
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }
