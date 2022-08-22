@@ -9,13 +9,11 @@ function NavBar() {
   const [navClass, setNavClass] = useState("");
 
   const handleToggle = () => {
-    console.log(navClass);
     if (navClass === "") {
       setNavClass("menu-btn");
     } else {
       setNavClass("");
     }
-    console.log(navClass);
   };
 
   return (
