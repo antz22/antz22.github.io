@@ -23,7 +23,7 @@ function Footer() {
             <a href="mailto:anthonyznj@gmail.com">
               <img id="email" src={Email} alt="Email" />
             </a>
-            <a href="https://github.com/antzz">
+            <a href="https://github.com/antz22">
               <img id="github" src={Github} alt="Github" />
             </a>
             <a href="https://www.linkedin.com/in/anthony-zhai/">
