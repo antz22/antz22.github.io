@@ -45,11 +45,11 @@ function Skills() {
     },
     {
       name: "HTML / CSS",
-      desc: "Designed, built, and deployed websites with responsive design and clean UI.",
+      desc: "Designed, built, and deployed websites from scratch with clean code, responsive design, and aesthetic UI.",
     },
     {
       name: "C++",
-      desc: "Competed in competitive programming competitions, using C++ as my main language.",
+      desc: "Competed in multiple competitive programming competitions, using C++ as my main programming language.",
     },
     {
       name: "Java",
