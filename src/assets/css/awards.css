@@ -1,48 +1,40 @@
 div.awards .container {
   padding: 1.5em;
 }
-
 div.awards .container .award {
   text-align: center;
   background-color: #003F77;
   padding: 2em;
   margin: 2em;
   border-radius: 10px;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   top: 0;
   position: relative;
 }
-
 div.awards .container .award h3.award-title {
   margin: 0;
   color: white;
 }
-
 div.awards .container .award p.award-issuer {
   color: #62E3FF;
   font-weight: bold;
-  font-family: 'Hack';
+  font-family: "Hack";
   font-size: 1.1em;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
-
 div.awards .container .award p.award-date {
   margin: 0;
   color: #D6D6D6;
-  font-family: 'Hack';
+  font-family: "Hack";
 }
-
 div.awards .container .award p.award-blurb {
   color: #D6D6D6;
   margin-bottom: 0;
   margin-top: 1.4em;
   text-align: left;
 }
-
 div.awards .container .award:hover {
-  -webkit-transition: 0.2s;
   transition: 0.2s;
   top: -10px;
   background-color: #00539b;
@@ -50,17 +42,13 @@ div.awards .container .award:hover {
 
 @media only screen and (min-width: 800px) {
   div.awards .container {
-    padding: 4.0em;
+    padding: 4em;
   }
   div.awards .container .award-row {
     max-width: 20em;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    margin: auto auto 1.0em auto;
+    justify-content: space-evenly;
+    margin: auto auto 1em auto;
   }
   div.awards .container .award-row .award {
     width: 13em;
@@ -68,7 +56,6 @@ div.awards .container .award:hover {
     padding: 1.8em;
   }
 }
-
 @media only screen and (min-width: 1080px) {
   div.awards .container .award-row {
     max-width: 70em;
@@ -80,5 +67,4 @@ div.awards .container .award:hover {
   div.awards .container .award-row .award p.award-blurb {
     margin-top: 2.4em;
   }
-}
-/*# sourceMappingURL=awards.css.map */
+}/*# sourceMappingURL=awards.css.map */

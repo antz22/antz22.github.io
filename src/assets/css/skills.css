@@ -1,8 +1,7 @@
 div#skills .container {
   padding: 1.5em;
-  font-family: 'Hack';
+  font-family: "Hack";
 }
-
 div#skills .container .skill {
   margin: auto;
   text-align: center;
@@ -10,45 +9,30 @@ div#skills .container .skill {
   padding: 3em;
   margin: 3em;
 }
-
 div#skills .container .skill .skill-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 div#skills .container .skill .skill-icon img {
   width: 5.5em;
   height: 5.5em;
 }
-
 div#skills .container .skill .skill-name {
   color: #62E3FF;
   margin-bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 div#skills .container .skillbar {
-  margin-bottom: 2.0em;
+  margin-bottom: 2em;
   font-size: 1.3em;
 }
-
 div#skills .container .skillbar .skillbar-name {
   color: white;
 }
-
 div#skills .container .skillbar .skillbar-name h4 {
   margin-bottom: 1em;
 }
-
 div#skills .container .skillbar .skillbar-bar .skillbar-lang {
   color: #BEBEBE;
   font-size: 0.77em;
@@ -62,12 +46,8 @@ div#skills .container .skillbar .skillbar-bar .skillbar-lang {
     margin: auto;
   }
   div#skills .container .skills-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   div#skills .container .skills-container .skill {
     margin: 0.5em;
@@ -86,12 +66,10 @@ div#skills .container .skillbar .skillbar-bar .skillbar-lang {
   }
   div#skills .container .skillbar-container {
     margin-top: 3em;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   div#skills .container .skillbar-container .skillbar-col {
-    font-size: 1.0em;
+    font-size: 1em;
     width: 40%;
     margin: 1em auto 2em auto;
   }
@@ -101,5 +79,4 @@ div#skills .container .skillbar .skillbar-bar .skillbar-lang {
   div#skills .container .skillbar-container .skillbar-col .skillbar-name h4 {
     margin-bottom: 1em;
   }
-}
-/*# sourceMappingURL=skills.css.map */
+}/*# sourceMappingURL=skills.css.map */

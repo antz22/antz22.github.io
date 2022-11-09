@@ -3,21 +3,17 @@ div.about .container {
   margin: auto;
   max-width: 770px;
 }
-
 div.about .container div.about-text p {
   line-height: 1.5;
   color: #BEBEBE;
 }
-
 div.about .container div.about-text p span {
   color: #62E3FF;
 }
-
 div.about .container div.picture-container {
   margin: auto;
   text-align: center;
 }
-
 div.about .container img#picture {
   margin-top: 2em;
   width: 13rem;
@@ -30,8 +26,6 @@ div.about .container img#picture {
   div.about .container {
     padding-left: 6.5em;
     padding-right: 6.5em;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   div.about .container div.about-text {
@@ -40,5 +34,4 @@ div.about .container img#picture {
   div.about .container img#picture {
     margin-top: 0;
   }
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */

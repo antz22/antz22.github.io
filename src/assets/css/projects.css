@@ -1,80 +1,59 @@
 div.projects .container {
   padding: 1.5em;
 }
-
 div.projects .container .project {
   margin-bottom: 4em;
 }
-
 div.projects .container .project .project-card {
   background-color: #023868;
   border-radius: 10px;
   color: white;
   padding: 1em;
   margin-bottom: 1em;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 div.projects .container .project .project-card .title-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 0.2em;
 }
-
 div.projects .container .project .project-card .title-row h3.project-title {
   margin: 0;
 }
-
 div.projects .container .project .project-card .title-row a.project-github {
   margin-left: 1.5em;
 }
-
 div.projects .container .project .project-card .title-row a.project-github img {
   width: 1.3em;
   height: 1.3em;
 }
-
 div.projects .container .project .project-card .title-row a.project-link {
-  margin-left: 1.0em;
+  margin-left: 1em;
 }
-
 div.projects .container .project .project-card .title-row a.project-link img {
   width: 1.3em;
   height: 1.3em;
 }
-
 div.projects .container .project .project-card .project-blurb {
   color: #D6D6D6;
   margin: 2em 0;
 }
-
 div.projects .container .project .project-card .project-icons .project-icon {
   width: 1.7em;
   height: 1.7em;
   margin-right: 0.5em;
 }
-
 div.projects .container .project .project-card:hover {
   background-color: #00539b;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 div.projects .container .project .project-img {
   border-radius: 10px;
   width: 100%;
-  -webkit-filter: brightness(0.8);
-          filter: brightness(0.8);
-  -webkit-transition: 0.2s;
+  filter: brightness(0.8);
   transition: 0.2s;
 }
-
 div.projects .container .project .project-img:hover {
-  -webkit-filter: brightness(1);
-          filter: brightness(1);
-  -webkit-transition: 0.2s;
+  filter: brightness(1);
   transition: 0.2s;
 }
 
@@ -84,8 +63,6 @@ div.projects .container .project .project-img:hover {
   }
   div.projects .container .project {
     margin-bottom: 4em;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   div.projects .container .project .project-card {
@@ -105,12 +82,10 @@ div.projects .container .project .project-img:hover {
     position: absolute;
     top: 48%;
     right: 0;
-    -webkit-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
     z-index: 1;
   }
 }
-
 @media only screen and (min-width: 1080px) {
   div.projects .container {
     padding: 7.5em;
@@ -127,5 +102,4 @@ div.projects .container .project .project-img:hover {
     width: 60%;
     z-index: -1;
   }
-}
-/*# sourceMappingURL=projects.css.map */
+}/*# sourceMappingURL=projects.css.map */

@@ -2,57 +2,44 @@ div.hero .container {
   padding: 0 1.5em;
   height: 100vh;
   margin-top: -17.5vh !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
 }
-
 div.hero .container .greeting {
   margin-left: 0.3em;
   color: #62E3FF;
-  font-family: 'Hack';
+  font-family: "Hack";
 }
-
 div.hero .container .name {
   color: white;
   font-size: 8vw;
   margin: 0;
 }
-
 div.hero .container .hero-sentence {
   color: #BEBEBE;
   font-size: 6.6vw;
   margin: 0.5em 0 1em 0;
 }
-
 div.hero .container .desc {
   color: #BEBEBE;
   line-height: 1.5;
 }
-
 div.hero .container a {
   text-decoration: none;
   color: #62E3FF;
   font-size: 1.1em;
-  font-family: 'Hack';
+  font-family: "Hack";
 }
-
 div.hero .container a .github-cta {
   border: 2px solid #62E3FF;
   color: #62E3FF;
   display: inline-block;
   padding: 0.6em 0.8em;
   margin-top: 1.6em;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-
 div.hero .container a .github-cta:hover {
   background-color: #004683;
-  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -60,11 +47,7 @@ div.hero .container a .github-cta:hover {
   div.hero .container {
     height: 100vh;
     margin-top: -6.3em !important;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    align-items: center;
     display: flex;
   }
   div.hero .container .greeting {
@@ -77,7 +60,6 @@ div.hero .container a .github-cta:hover {
     font-size: 5.2vw;
   }
 }
-
 @media only screen and (min-width: 800px) {
   div.hero .container {
     padding: 0 6.5em;
@@ -95,7 +77,6 @@ div.hero .container a .github-cta:hover {
     width: 80%;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   div.hero .container .content-container .name {
     font-size: 4.5em;
@@ -103,5 +84,4 @@ div.hero .container a .github-cta:hover {
   div.hero .container .content-container .hero-sentence {
     font-size: 3.9em;
   }
-}
-/*# sourceMappingURL=hero.css.map */
+}/*# sourceMappingURL=hero.css.map */
