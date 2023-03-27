@@ -66,7 +66,7 @@ function Experience() {
         "Used Python for the automation scripts and the Selenium Python library for webscraping the book data.",
     },
     {
-      title: "Board Member, Lead Organizer",
+      title: "President, Lead Organizer",
       company: "Montgomery Computer Science Club",
       date: "Jun 2021 - Present",
       img: BoardMember,
@@ -74,7 +74,7 @@ function Experience() {
         "Increased meeting attendance by 400% with new meeting structures and teaching methods",
         "Hosted 4 workshops for varying levels of background knowledge, including introductory Python and algorithmic programming.",
         "Organized first ever hybrid hackathon, MontyHacks V, which attracted over 150 participants from over 30 different schools.",
-        "Led team of 20+ members of club to obtain sponsorships and extend outreach for marketing the MontyHacks V event.",
+        "Led team of 20+ members of club to obtain sponsorships and extend outreach for marketing the MontyHacks V and MontyHacks VI events.",
       ],
       stack:
         "Taught and used beginner and intermediate Python concepts, algorithmic programming, and game development.",
