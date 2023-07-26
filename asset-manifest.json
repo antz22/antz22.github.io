@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8703b569.css",
-    "main.js": "/static/js/main.7e64651c.js",
+    "main.js": "/static/js/main.3b3dcc53.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/arch-linux.png": "/static/media/arch-linux.e7a5f087cf598e784cbf.png",
     "static/media/Hack-Bold.ttf": "/static/media/Hack-Bold.1f083437d9fb0dac875e.ttf",
@@ -45,11 +45,11 @@
     "static/media/flutter.svg": "/static/media/flutter.e596d2f6dea87c375c597ed537f4c7a4.svg",
     "static/media/chevron.svg": "/static/media/chevron.0d8ebba562b794b76c52fb9e1b51e7b3.svg",
     "main.8703b569.css.map": "/static/css/main.8703b569.css.map",
-    "main.7e64651c.js.map": "/static/js/main.7e64651c.js.map",
+    "main.3b3dcc53.js.map": "/static/js/main.3b3dcc53.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8703b569.css",
-    "static/js/main.7e64651c.js"
+    "static/js/main.3b3dcc53.js"
   ]
 }
