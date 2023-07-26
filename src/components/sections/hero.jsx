@@ -10,7 +10,7 @@ function Hero() {
           <h2 className="hero-sentence">I build tech to make a difference.</h2>
 
           <p className="desc">
-            I’m a high school senior located in New Jersey who is interested in
+            I'm a first-year CS student at Princeton University who is interested in
             using technology to benefit humanity. I love building mobile and web
             apps and conducting machine learning research.
           </p>
