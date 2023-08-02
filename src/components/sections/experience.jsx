@@ -3,6 +3,7 @@ import SectionHeader from "../section-header";
 import Chevron from "../../assets/icons/chevron.svg";
 import Stack from "../../assets/icons/stack.svg";
 
+import SoftwareEngineer from "../../assets/icons/software-engineer.svg";
 import MLIntern from "../../assets/icons/ml-intern.svg";
 import DevIntern from "../../assets/icons/dev-intern.svg";
 import BoardMember from "../../assets/icons/board-member.svg";
@@ -40,6 +41,18 @@ function ExperienceCard(props) {
 
 function Experience() {
   const experiences = [
+    {
+      title: "Software Engineer",
+      company: "EsperCare",
+      date: "Jun 2023 - Present",
+      img: SoftwareEngineer,
+      pts: [
+        "Developed a mobile app for interacting with 3-dimensional avatars for gamifying physical therapy.",
+        "Created the Project Delivery Accelerator using Atlassian Forge, an extension for Jira and Confluence teams to outline project specifications and benchmark progress.",
+      ],
+      stack:
+        "Used Flutter and Three.js to build the 3D avatar app, and used Atlassian Forge's development toolkit to develop the extension, including Jira's Rest API and React.js.",
+    },
     {
       title: "Machine Learning Research Intern",
       company: "Princeton University ECE Department",

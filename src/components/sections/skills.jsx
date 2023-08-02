@@ -53,7 +53,7 @@ function Skills() {
     },
     {
       name: "Java",
-      desc: "Learning algorithms and data structures in Java and taking the AP CS A course.",
+      desc: "Created several programming projects dealing with graphics and data processing, as well as completing multiple problem sets in Java.",
     },
   ];
 
@@ -68,12 +68,12 @@ function Skills() {
 
       <div className="container">
         <div className="skills-container">
+          <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
+          <Skill skill="Full-Stack Web Programming" src={WebDev} />
           <Skill
             skill="Cross-Platform Mobile App Development"
             src={MobileDev}
           />
-          <Skill skill="Machine Learning & Artifical Intelligence" src={AI} />
-          <Skill skill="Full-Stack Web Programming" src={WebDev} />
         </div>
 
         <div className="skillbar-container">
