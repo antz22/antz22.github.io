@@ -31,6 +31,13 @@ function Awards() {
         "1 of 2 award recipients for presenting CGBNet: A Deep Learning Framework for Compost Classification. Used deep learning to help automate the process of composting.",
     },
     {
+      title: "Most Innovative Startup Idea",
+      issuer: "HackPrinceton",
+      date: "Nov 2023",
+      blurb:
+        "Awarded Most Innovative Startup Idea against hundreds of competitors. Created EduLecture.ai, a voice-generative AI tool that bridges the accessibility gap for remote education.",
+    },
+    {
       title: "Best Hardware Hack",
       issuer: "PantherHacks",
       date: "May 2022",
@@ -50,13 +57,6 @@ function Awards() {
       date: "Nov 2021",
       blurb:
         "Won 2nd Place Overall at HackPHS, an MLH hackathon with over 150 participants. Created Rello, an inexpensive motorcycle safety system informed by machine learning and computer vision.",
-    },
-    {
-      title: "Best High School Visualization",
-      issuer: "Vizathon 2021",
-      date: "Aug 2021",
-      blurb:
-        "Awarded best high school award for the Harvard Coronavirus Visualization Team's Vizathon 2021. Mapped global trends in mental health using Python data visualization libraries.",
     },
   ];
   return (
