@@ -30,6 +30,13 @@ function ExperienceCard(props) {
           </div>
         ))}
 
+        {props.link === true &&
+          <div className="experience-pt">
+            <img className="chevron" src={Chevron} alt="Chevron" />
+            <p>Click here to see the research report I wrote: <a href="/report.pdf">LLP Research Report</a></p>
+          </div>
+        }
+
         <div className="experience-pt">
           <img className="stack" src={Stack} alt="Stack" />
           <p>{props.stack}</p>
@@ -50,6 +57,7 @@ function Experience() {
         "Developed a mobile app for interacting with 3-dimensional avatars for gamifying physical therapy.",
         "Created the Project Delivery Accelerator using Atlassian Forge, an extension for Jira and Confluence teams to outline project specifications and benchmark progress.",
       ],
+      link: false,
       stack:
         "Used Flutter and Three.js to build the 3D avatar app, and used Atlassian Forge's development toolkit to develop the extension, including Jira's Rest API and React.js.",
     },
@@ -63,6 +71,7 @@ function Experience() {
         "Used the Fast Fourier Transform to develop a novel neural network for time series forecasting, utilizing <20% parameters than LSTM networks with <15% training time and equal performance.",
         "Analyzed data down sampling methods for frequency and peak flux density to assess the relative significance of different variables in predicting core loss and to reduce the parameter search space by ~20%.",
       ],
+      link: true,
       stack:
         "Used Tensorflow, Keras, PyTorch, Pandas, Numpy, Matplotlib, Scipy, and Scikit-learn.",
     },
@@ -75,6 +84,7 @@ function Experience() {
         "Developed scripts to search the web for electronic books and separately obtain their metadata.",
         "Automated the process with headless web scraper drivers from Python web scraping libraries.",
       ],
+      link: false,
       stack:
         "Used Python for the automation scripts and the Selenium Python library for webscraping the book data.",
     },
@@ -89,6 +99,7 @@ function Experience() {
         "Organized first ever hybrid hackathon, MontyHacks V, which attracted over 150 participants from over 30 different schools.",
         "Led team of 20+ members of club to obtain sponsorships and extend outreach for marketing the MontyHacks V and MontyHacks VI events.",
       ],
+      link: false,
       stack:
         "Taught and used beginner and intermediate Python concepts, algorithmic programming, and game development.",
     },
@@ -104,13 +115,14 @@ function Experience() {
       />
 
       <div className="container">
-        {experiences.map(({ title, company, date, img, pts, stack }) => (
+        {experiences.map(({ title, company, date, img, pts, link, stack }) => (
           <ExperienceCard
             title={title}
             company={company}
             date={date}
             img={img}
             pts={pts}
+            link={link}
             stack={stack}
           />
         ))}

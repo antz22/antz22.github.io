@@ -48,6 +48,9 @@ div.experience .container .experience-card .experience-text .experience-pt p {
   line-height: 1.4;
   width: 100%;
 }
+div.experience .container .experience-card .experience-text .experience-pt p a {
+  color: #62E3FF;
+}
 
 @media only screen and (min-width: 600px) {
   div.experience .container .experience-card .experience-img {
