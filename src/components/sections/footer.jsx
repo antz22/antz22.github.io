@@ -20,7 +20,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <div className="socials">
-            <a href="mailto:anthonyznj@gmail.com">
+            <a href="mailto:zhai@princeton.edu">
               <img id="email" src={Email} alt="Email" />
             </a>
             <a href="https://github.com/antz22">
@@ -40,7 +40,7 @@ function Footer() {
           <p className="footer-mark">Designed and built by Anthony Zhai</p>
 
           <p className="footer-year">
-            <span>&copy; 2023</span>
+            <span>&copy; 2024</span>
           </p>
         </div>
       </div>

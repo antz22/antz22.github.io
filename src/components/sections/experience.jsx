@@ -91,7 +91,7 @@ function Experience() {
     {
       title: "President, Lead Organizer",
       company: "Montgomery Computer Science Club",
-      date: "Jun 2021 - Jun 2023",
+      date: "Jun 2021 - Jun 2022",
       img: BoardMember,
       pts: [
         "Increased meeting attendance by 400% with new meeting structures and teaching methods",
