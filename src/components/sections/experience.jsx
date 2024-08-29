@@ -49,13 +49,28 @@ function ExperienceCard(props) {
 function Experience() {
   const experiences = [
     {
-      title: "Software Engineer",
-      company: "EsperCare",
-      date: "Jun 2023 - Present",
+      title: "Software Engineer Intern",
+      company: "Predigle",
+      date: "May 2024 - Aug 2024",
       img: SoftwareEngineer,
       pts: [
-        "Developed a mobile app for interacting with 3-dimensional avatars for gamifying physical therapy.",
-        "Created the Project Delivery Accelerator using Atlassian Forge, an extension for Jira and Confluence teams to outline project specifications and benchmark progress.",
+        "Developed neural network and random forest models for classifying insurance claim overpayment reasons. Using 400,000+ data points, performed data cleaning, feature engineering, and model training to achieve 97% accuracy. In first batch, successfully classified $250,000+ worth of new insurance overpayments.",
+        "Created end-to-end pipeline for automatic classification of refund reason for unlabeled scanned insurance documents, using Optical Character Recognition (OCR) and machine learning. Allowed client to tap into 150,000+ additional data points for insurance claim overpayment model training.",
+        "Developed production software to perform segmentation on 100k+ of client’s patients. Uses technographic data-driven models to identify tech-inclined patient cohorts for increasing digital payment adoption.",
+        "Performed containerization of software using Docker, AWS, and GCP to deploy Predigle’s software solutions in client environments."
+      ],
+      link: false,
+      stack:
+        "Used Tensorflow to develop the neural network, scikit-learn to develop the Random Forest model, Pandas and Numpy for data-related modeling, Django to host web applications, and AWS + GCP + Docker to containerize software.",
+    },
+    {
+      title: "Software Engineer Intern",
+      company: "Predigle",
+      date: "May 2023 - Aug 2023",
+      img: SoftwareEngineer,
+      pts: [
+        "Created first prototype of Predigle Quest, a Project Delivery Accelerator app developed using Atlassian Forge that allows teams to perform project initiation and agile execution in Jira. Originally developed for billion+ dollar evaluated client and later monetized as an official Predigle software product.",
+        "Developed mobile app to allow users to interact with 3-D avatar for increasing engagement with physical therapy exercises through gamification process."
       ],
       link: false,
       stack:
