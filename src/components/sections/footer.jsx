@@ -40,7 +40,7 @@ function Footer() {
           <p className="footer-mark">Designed and built by Anthony Zhai</p>
 
           <p className="footer-year">
-            <span>&copy; 2024</span>
+            <span>&copy; 2025</span>
           </p>
         </div>
       </div>
