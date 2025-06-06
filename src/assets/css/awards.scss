@@ -12,51 +12,63 @@ div.awards {
     .container {
         padding: 1.5em;
 
-        .award {
-            text-align: center;
-            background-color: $bg-2;
-            padding: 2em;
-            margin: 2em;
-            border-radius: 10px;
-            transition: 0.2s;
-            top: 0;
-            position: relative;
+        .award-row {
+            display: grid;
+            justify-items: center;
+            grid-gap: 15px;
 
-            h3.award-title {
-                margin: 0;
-                color: white;
+            .aos-award {
+                justify-items: center;
             }
 
-            p.award-issuer {
-                color: $accent;
-                font-weight: bold;
-                font-family: 'Hack';
-                font-size: 1.1em;
-                margin-top: 0.6em;
-                margin-bottom: 0.6em;
-            }
-
-            p.award-date {
-                margin: 0;
-                color: $brighter;
-                font-family: 'Hack';
-            }
-
-            p.award-blurb {
-                color: $brighter;
-                margin-bottom: 0;
-                margin-top: 1.4em;
-                text-align: left;
-                line-height: 1.4;
-            }
-
-
-            &:hover {
+            .award {
+                text-align: center;
+                background-color: $bg-2;
+                padding: 2em;
+                border-radius: 10px;
                 transition: 0.2s;
-                top: -10px;
-                background-color: $hover-bg;
+                top: 0;
+                position: relative;
+
+                h3.award-title {
+                    margin: 0;
+                    color: white;
+                }
+
+                p.award-issuer {
+                    color: $accent;
+                    font-weight: bold;
+                    font-family: 'Hack';
+                    font-size: 1.1em;
+                    margin-top: 0.6em;
+                    margin-bottom: 0.6em;
+                }
+
+                p.award-date {
+                    margin: 0;
+                    color: $brighter;
+                    font-family: 'Hack';
+                }
+
+                p.award-blurb {
+                    color: $brighter;
+                    margin-bottom: 0;
+                    margin-top: 1.4em;
+                    text-align: left;
+                    line-height: 1.4;
+                }
+
+
+                &:hover {
+                    transition: 0.2s;
+                    top: -10px;
+                    background-color: $hover-bg;
+                }
             }
+
+
         }
+
     }
 }
 
@@ -69,14 +81,12 @@ div.awards {
             padding: 4.0em;
 
             .award-row {
-                max-width: 20em;
-                display: flex;
-                justify-content: space-evenly;
-                margin: auto auto 1.0em auto;
+                grid-template-columns: repeat(2, minmax(300px, 1fr));
+
 
                 .award {
-                    width: 13em;
-                    height: 16.5em;
+                    width: 80%;
+                    height: 280px;
                     padding: 1.8em;
                 }
             }
@@ -85,18 +95,35 @@ div.awards {
 }
 
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 900px) {
+
+    div.awards {
+        .container {
+            .award-row {
+                .award {
+                    height: 240px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
 
     div.awards {
 
         .container {
+            justify-items: center;
 
             .award-row {
-                max-width: 70em;
+                max-width: 1000px;
+                grid-template-columns: repeat(3, minmax(250px, 1fr));
 
                 .award {
-                    width: 18em;
-                    padding: 1.8em;
+                    max-width: 350px;
+                    width: 80%;
+                    height: 310px;
 
                     p.award-blurb {
                         margin-top: 2.4em;

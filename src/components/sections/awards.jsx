@@ -73,6 +73,11 @@ function Awards() {
 
       <div className="container">
         <div className="award-row">
+          {awards.map(({ title, issuer, date, blurb }) => (
+            <Award title={title} issuer={issuer} date={date} blurb={blurb} />
+          ))}
+        </div>
+        {/* <div className="award-row">
           {awards.slice(0, 2).map(({ title, issuer, date, blurb }) => (
             <Award title={title} issuer={issuer} date={date} blurb={blurb} />
           ))}
@@ -88,7 +93,7 @@ function Awards() {
           {awards.slice(4, 6).map(({ title, issuer, date, blurb }) => (
             <Award title={title} issuer={issuer} date={date} blurb={blurb} />
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
