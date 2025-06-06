@@ -41,7 +41,7 @@ function Footer() {
             </a>
           </div>
 
-          <p className="footer-mark">Designed and built by Anthony Zhai</p>
+          <p className="footer-mark">Built by Anthony Zhai</p>
 
           <p className="footer-year">
             <span>&copy; 2025</span>
