@@ -8,7 +8,7 @@ function Award(props) {
     <motion.div className="aos-award"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.5, delay: 0.3 }}>
       <div className="award">
         <h3 className="award-title">{props.title}</h3>
