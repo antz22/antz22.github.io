@@ -4,22 +4,22 @@ div.section-header {
 }
 
 h2.section-title {
-  width: 88%;
+  width: 80%;
   text-align: center;
-  border-bottom: 1px solid #A1A1A1;
+  border-bottom: 0.35px solid #787878;
   line-height: 0.1em;
   margin: auto;
 }
 
 h2.section-title span {
-  background: #002E56;
+  background: #001f39;
   padding: 0 1.5rem;
   color: #fff;
 }
 
 @media only screen and (min-width: 800px) {
   div.section-header {
-    max-width: 1420px;
+    max-width: 1010px;
     margin: 8em auto 4em auto;
   }
   h2.section-title {

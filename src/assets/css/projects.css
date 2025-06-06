@@ -5,7 +5,7 @@ div.projects .container .project {
   margin-bottom: 4em;
 }
 div.projects .container .project .project-card {
-  background-color: #023868;
+  background-color: #00325e;
   border-radius: 10px;
   color: white;
   padding: 1em;
@@ -36,6 +36,7 @@ div.projects .container .project .project-card .title-row a.project-link img {
 div.projects .container .project .project-card .project-blurb {
   color: #D6D6D6;
   margin: 2em 0;
+  line-height: 1.5;
 }
 div.projects .container .project .project-card .project-icons .project-icon {
   width: 1.7em;
@@ -64,6 +65,7 @@ div.projects .container .project .project-img:hover {
   div.projects .container .project {
     margin-bottom: 4em;
     display: flex;
+    position: relative;
   }
   div.projects .container .project .project-card {
     width: 50%;

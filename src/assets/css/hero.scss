@@ -1,17 +1,17 @@
-$bg: #002E56;
+$bg: #001f39;
 $accent: #62E3FF;
 $primary: #fff;
-$secondary: #BEBEBE;
+$secondary: #c1c1c1;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
-$btn-hover: #004683;
+$btn-hover: #01437c;
 
 
 div.hero {
 
     .container {
-        padding: 0 1.5em;
+        padding: 1em 3.5em;
         height: 100vh;
         margin-top: -17.5vh !important;
         align-items: center;
@@ -37,7 +37,7 @@ div.hero {
 
         .desc {
             color: $secondary;
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
         a {
@@ -50,7 +50,7 @@ div.hero {
                 border: 2px solid $accent;
                 color: $accent;
                 display: inline-block;
-                padding: 0.6em 0.8em;
+                padding: 0.8em 1.0em;
                 margin-top: 1.6em;
                 transition: 0.2s;
 
@@ -106,7 +106,7 @@ div.hero {
 
             .desc {
                 margin: 0 0 1.5em 0;
-                width: 80%;
+                width: 60%;
             }
         }
     }

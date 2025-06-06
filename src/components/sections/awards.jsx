@@ -1,16 +1,22 @@
 import "../../assets/css/awards.css";
 import SectionHeader from "../section-header";
 
+import { motion } from "motion/react";
+
 function Award(props) {
   return (
-    <div className="aos-award" data-aos="fade-left" data-aos-duration="600">
+    <motion.div className="aos-award"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.3 }}>
       <div className="award">
         <h3 className="award-title">{props.title}</h3>
         <p className="award-issuer">{props.issuer}</p>
         <p className="award-date">{props.date}</p>
         <p className="award-blurb">{props.blurb}</p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
@@ -63,9 +69,6 @@ function Awards() {
     <div className="awards">
       <SectionHeader
         title="Awards"
-        aos="fade-left"
-        offset="20px"
-        duration="600"
       />
 
       <div className="container">

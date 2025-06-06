@@ -26,9 +26,15 @@ import MontyHacks from "../../assets/images/montyhacks.png";
 import OneFocus from "../../assets/images/onefocus.png";
 import ArchLinux from "../../assets/images/arch-linux.png";
 
+import { motion } from "motion/react";
+
 function Project(props) {
   return (
-    <div className="project" data-aos="fade-up" data-aos-duration="600">
+    <motion.div className="project"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.2 }}>
       <div className="project-card">
         <div className="title-row">
           <h3 className="project-title">{props.title}</h3>
@@ -51,9 +57,9 @@ function Project(props) {
         </div>
       </div>
       <div className="project-img-container">
-        <img className="project-img" src={props.img} alt="Project Banner" />
+        <img className="project-img" src={props.img} alt="Project Banner"/>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
@@ -128,9 +134,6 @@ function Projects() {
     <div className="projects">
       <SectionHeader
         title="Projects"
-        aos="fade-up"
-        offset="20px"
-        duration="600"
       />
 
       <div className="container">

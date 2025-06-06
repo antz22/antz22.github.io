@@ -6,17 +6,21 @@ import LinkedIn from "../../assets/icons/linkedin.svg";
 import Instagram from "../../assets/icons/instagram.svg";
 import StackOverflow from "../../assets/icons/stackoverflow.svg";
 
+import { motion } from "motion/react";
+
 function Footer() {
   return (
     <div className="footer">
       <div className="container">
-        <h2
+        <motion.h2
           className="footer-heading"
-          data-aos="fade-up"
-          data-aos-duration="800"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4, delay: 0.2 }}
         >
           Feel free to contact me below!
-        </h2>
+        </motion.h2>
 
         <div className="footer-bottom">
           <div className="socials">

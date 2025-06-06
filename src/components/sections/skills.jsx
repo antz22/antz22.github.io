@@ -5,27 +5,39 @@ import MobileDev from "../../assets/icons/mobile-dev.svg";
 import AI from "../../assets/icons/ai.svg";
 import WebDev from "../../assets/icons/web-dev.svg";
 
+import { motion } from "motion/react";
+
 function Skill(props) {
   return (
-    <div className="skill" data-aos="fade-up" data-aos-duration="1000">
+    <motion.div className="skill" 
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+      >
       <div className="skill-icon">
         <img className="icon" src={props.src} alt="icon" />
       </div>
       <h3 className="skill-name">{props.skill}</h3>
-    </div>
+    </motion.div>
   );
 }
 
 function SkillBar(props) {
   return (
-    <div className="skillbar" data-aos="fade-left" data-aos-duration="1000">
+    <motion.div className="skillbar"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
       <div className="skillbar-name">
         <h4>{props.name}</h4>
       </div>
       <div className="skillbar-bar">
         <p className="skillbar-lang">{props.desc}</p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
@@ -59,12 +71,7 @@ function Skills() {
 
   return (
     <div id="skills">
-      <SectionHeader
-        title="Skills"
-        aos="fade-up"
-        offset="20px"
-        duration="1000"
-      />
+      <SectionHeader title="Skills"/>
 
       <div className="container">
         <div className="skills-container">

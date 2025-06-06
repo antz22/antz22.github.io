@@ -1,7 +1,7 @@
-$bg: #002E56;
+$bg: #001f39;
 $accent: #62E3FF;
 $primary: #fff;
-$secondary: #BEBEBE;
+$secondary: #c1c1c1;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
@@ -13,9 +13,9 @@ div.section-header {
 }
 
 h2.section-title {
-    width: 88%;
+    width: 80%;
     text-align: center;
-    border-bottom: 1px solid #A1A1A1;
+    border-bottom: 0.35px solid #787878;
     line-height: 0.1em;
     margin: auto;
 }
@@ -29,7 +29,7 @@ h2.section-title span {
 
 @media only screen and (min-width: 800px) {
     div.section-header {
-        max-width: 1420px;
+        max-width: 1010px;
         margin: 8em auto 4em auto;
     }
 

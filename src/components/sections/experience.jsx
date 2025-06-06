@@ -8,12 +8,16 @@ import MLIntern from "../../assets/icons/ml-intern.svg";
 import DevIntern from "../../assets/icons/dev-intern.svg";
 import BoardMember from "../../assets/icons/board-member.svg";
 
+import { motion } from "motion/react";
+
 function ExperienceCard(props) {
   return (
-    <div
+    <motion.div
       className="experience-card"
-      data-aos="fade-right"
-      data-aos-duration="1000"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.5 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
     >
       <div className="experience-img">
         <img src={props.img} alt="Icon" />
@@ -42,7 +46,7 @@ function ExperienceCard(props) {
           <p>{props.stack}</p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -21,7 +21,7 @@ div.experience .container .experience-card .experience-text h3.experience-title 
   color: #fff;
 }
 div.experience .container .experience-card .experience-text p.experience-company {
-  color: #BEBEBE;
+  color: #c1c1c1;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
   font-family: "Inter";
@@ -45,7 +45,7 @@ div.experience .container .experience-card .experience-text .experience-pt img {
 div.experience .container .experience-card .experience-text .experience-pt p {
   margin: 0.7em auto;
   color: #A6A6A6;
-  line-height: 1.4;
+  line-height: 1.5;
   width: 100%;
 }
 div.experience .container .experience-card .experience-text .experience-pt p a {

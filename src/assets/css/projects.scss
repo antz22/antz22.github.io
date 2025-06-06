@@ -1,12 +1,13 @@
-$bg: #002E56;
+$bg: #001f39;
 $accent: #62E3FF;
 $primary: #fff;
-$secondary: #BEBEBE;
+$secondary: #c1c1c1;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
 $bg-2: #003F77;
-$bg-3: #023868;
+$bg-3: #00325e;
 $hover-bg: #00539b;
+
 
 div.projects {
 
@@ -39,7 +40,6 @@ div.projects {
                             width: 1.3em;
                             height: 1.3em;
                         }
-
                     }
 
                     a.project-link {
@@ -49,14 +49,13 @@ div.projects {
                             width: 1.3em;
                             height: 1.3em;
                         }
-
                     }
                 }
 
                 .project-blurb {
                     color: $brighter;
                     margin: 2em 0;
-
+                    line-height: 1.5;
                 }
 
                 .project-icons {
@@ -65,19 +64,13 @@ div.projects {
                         width: 1.7em;
                         height: 1.7em;
                         margin-right: 0.5em;
-                
                     }
-
-
                 }
 
                 &:hover {
                     background-color: $hover-bg;
                     transition: 0.2s;
                 }
-
-
-
             }
 
             .project-img {
@@ -106,13 +99,12 @@ div.projects {
             .project {
                 margin-bottom: 4em;
                 display: flex;
+                position: relative;
 
                 .project-card {
-
                     width: 50%;
                     padding: 1.2em;
                     margin-bottom: 1em;
-
 
                     .title-row {
                         margin-top: 0.2em;
@@ -121,13 +113,10 @@ div.projects {
                     .project-blurb {
                         margin: 3em 0;
                         width: 70%;
-
                     }
                 }
 
                 .project-img {
-
-
                     width: 60%;
                     position: absolute;
                     top: 48%;

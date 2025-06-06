@@ -1,5 +1,5 @@
 div.hero .container {
-  padding: 0 1.5em;
+  padding: 1em 3.5em;
   height: 100vh;
   margin-top: -17.5vh !important;
   align-items: center;
@@ -16,13 +16,13 @@ div.hero .container .name {
   margin: 0;
 }
 div.hero .container .hero-sentence {
-  color: #BEBEBE;
+  color: #c1c1c1;
   font-size: 6.6vw;
   margin: 0.5em 0 1em 0;
 }
 div.hero .container .desc {
-  color: #BEBEBE;
-  line-height: 1.5;
+  color: #c1c1c1;
+  line-height: 1.6;
 }
 div.hero .container a {
   text-decoration: none;
@@ -34,12 +34,12 @@ div.hero .container a .github-cta {
   border: 2px solid #62E3FF;
   color: #62E3FF;
   display: inline-block;
-  padding: 0.6em 0.8em;
+  padding: 0.8em 1em;
   margin-top: 1.6em;
   transition: 0.2s;
 }
 div.hero .container a .github-cta:hover {
-  background-color: #004683;
+  background-color: #01437c;
   transition: 0.2s;
 }
 
@@ -74,7 +74,7 @@ div.hero .container a .github-cta:hover {
   }
   div.hero .container .desc {
     margin: 0 0 1.5em 0;
-    width: 80%;
+    width: 60%;
   }
 }
 @media only screen and (min-width: 1200px) {

@@ -1,12 +1,17 @@
 import SectionHeader from "../section-header";
 import Picture from "../../assets/images/picture.png";
+import { motion } from "motion/react";
 import "../../assets/css/about.css";
 
 function About() {
   return (
-    <div className="about" data-aos="fade-up">
+    <div className="about">
       <SectionHeader title="About" />
-      <div className="container">
+      <motion.div className="container"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, delay: 0.3 }}>
         <div className="about-text">
           <p>
             Hello! My name is <span>Anthony</span> and I love to use new
@@ -38,7 +43,7 @@ function About() {
         <div className="picture-container">
           <img id="picture" src={Picture} alt="Anthony"></img>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

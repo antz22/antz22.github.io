@@ -16,7 +16,9 @@ body {
   font-family: 'Inter', 'Hack', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #002E56;
+  /* original: */
+  /* background-color: #002E56; */
+  background-color: #001f39;
 }
 
 html, body {

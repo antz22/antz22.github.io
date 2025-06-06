@@ -3,7 +3,7 @@ div.awards .container {
 }
 div.awards .container .award {
   text-align: center;
-  background-color: #003F77;
+  background-color: #00325e;
   padding: 2em;
   margin: 2em;
   border-radius: 10px;
@@ -33,6 +33,7 @@ div.awards .container .award p.award-blurb {
   margin-bottom: 0;
   margin-top: 1.4em;
   text-align: left;
+  line-height: 1.4;
 }
 div.awards .container .award:hover {
   transition: 0.2s;
