@@ -43,7 +43,7 @@ div.hero {
         a {
             text-decoration: none;
             color: $accent;
-            font-size: 1.1em;
+            font-size: 1.05em;
             font-family: 'Hack';
 
             .github-cta {
@@ -127,6 +127,15 @@ div.hero {
                     font-size: 3.9em;
                 }
             }
+        }
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    div.hero {
+        .container {
+            height: 640px;
+            margin-top: -5.6em !important;
         }
     }
 }

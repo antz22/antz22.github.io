@@ -27,7 +27,7 @@ div.hero .container .desc {
 div.hero .container a {
   text-decoration: none;
   color: #62E3FF;
-  font-size: 1.1em;
+  font-size: 1.05em;
   font-family: "Hack";
 }
 div.hero .container a .github-cta {
@@ -83,5 +83,11 @@ div.hero .container a .github-cta:hover {
   }
   div.hero .container .content-container .hero-sentence {
     font-size: 3.9em;
+  }
+}
+@media only screen and (max-height: 700px) {
+  div.hero .container {
+    height: 640px;
+    margin-top: -5.6em !important;
   }
 }/*# sourceMappingURL=hero.css.map */
