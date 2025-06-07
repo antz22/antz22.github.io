@@ -21,8 +21,8 @@ import GoogleCloud from "../../assets/logos/googlecloud.svg";
 
 import FlutterGuide from "../../assets/images/flutter-guide.svg";
 import ConnectAnon from "../../assets/images/connectanon.png";
+import VirtualMouse from "../../assets/images/virtualmouse.png";
 import Alertra from "../../assets/images/alertra.png";
-import MontyCompsci from "../../assets/images/montycompsci.png";
 import ArchLinux from "../../assets/images/arch-linux.png";
 
 import { motion } from "motion/react";
@@ -89,7 +89,7 @@ function Projects() {
       blurb:
         "A program that allows users to control their computer or GUI using only hand gestures. Built using Python, OpenCV, and Mediapipe.",
       icons: [Python, OpenCV, GoogleCloud],
-      img: MontyCompsci,
+      img: VirtualMouse,
     },
     {
       title: "Alertra",
