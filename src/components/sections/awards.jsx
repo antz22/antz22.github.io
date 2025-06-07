@@ -13,7 +13,8 @@ function Award(props) {
       <div className="award">
         <h3 className="award-title">{props.title}</h3>
         <p className="award-issuer">{props.issuer}</p>
-        <p className="award-date">{props.date}</p>
+        {/* <p className="award-date">{props.date}</p> */}
+        {/* <p className="award-date">{props.issuer}</p> */}
         <p className="award-blurb">{props.blurb}</p>
       </div>
     </motion.div>

@@ -46,6 +46,10 @@ function Skills() {
       desc: "Tensorflow, Keras, PyTorch, Django-rest-framework, Pandas, Numpy, Matplotlib, Plotly.",
     },
     {
+      name: "HTML / CSS",
+      desc: "Designed, built, and deployed websites from scratch with clean code, responsive design, and aesthetic UI.",
+    },
+    {
       name: "Dart",
       desc: "Used Flutter to develop multiple robust and production-ready mobile applications. Used Firebase and Django as backend servers.",
     },
@@ -54,16 +58,12 @@ function Skills() {
       desc: "Created multiple interactive web applications that deal with user data using React.js and Vue.js.",
     },
     {
-      name: "HTML / CSS",
-      desc: "Designed, built, and deployed websites from scratch with clean code, responsive design, and aesthetic UI.",
+      name: "Java",
+      desc: "Created several programming projects dealing with graphics and data processing, as well as completing coursework in Java.",
     },
     {
       name: "C++",
       desc: "Competed in multiple competitive programming competitions, using C++ as my main programming language.",
-    },
-    {
-      name: "Java",
-      desc: "Created several programming projects dealing with graphics and data processing, as well as completing multiple problem sets in Java.",
     },
   ];
 

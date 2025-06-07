@@ -28,9 +28,9 @@ function Hero() {
             whileInView={{ opacity: 1, y: 0}}
             viewport={{ once: true }}
             transition={{duration: 0.5, delay: 0.5}}>
-            I'm a student at Princeton University studying Mathematics and Computer Science who is interested in
-            using technology to benefit humanity. I love building mobile and web
-            apps and conducting machine learning research.
+            I'm a student at Princeton University studying Mathematics and Computer Science with a 
+            passion for machine learning and full-stack development.
+            I love building tools that apply research and engineering to real-world challenges.
           </motion.p>
 
           <motion.a href="https://github.com/antz22"

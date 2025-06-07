@@ -14,30 +14,31 @@ function About() {
         transition={{ duration: 0.5, delay: 0.3 }}>
         <div className="about-text">
           <p>
-            Hello! My name is <span>Anthony</span> and I love to use new
-            technology in impactful ways. I began coding back in the beginning
-            of 2021 as I started to learn the basics of{" "}
-            <span>web programming</span> with HTML, CSS, <span>Django</span>,
-            and Javascript.
+            Hello! My name is <span>Anthony</span> and I love using technology to solve
+            meaningful problems. I started coding in early 2021, beginning with 
+            <span> web development</span> using HTML, CSS, <span>Django</span>, and
+            Javascript.
           </p>
 
           <p>
-            I enjoyed it so much that I continued application development,
-            learning <span>Flutter</span> for{" "}
-            <span>mobile app development</span> and <span>Vue.js</span> and{" "}
-            <span>React.js</span> for <span>frontend web development</span>.
+            As I explored further, I dove into <span>app development</span> with
+            <span> Flutter</span>, <span>Vue.js</span> and <span>React.js</span>. 
+            Along the way, I expanded my interests to AI and ML research and applied 
+            my skills in hackathons, resulting in 8+ hackathon wins and a co-authored
+            paper on compost classification using deep learning, published in 
+            <span> IEEE</span>.
           </p>
 
           <p>
-            Since then, I have also expanded my interests to <span>AI</span> and{" "}
-            <span>ML research</span>, conducting novel research on automating
-            sustainable practices that has been published in <span>IEEE</span>.
+            More recently, I’ve interned as a <span>software engineer</span> at
+            <span> Predigle</span>, where I built machine learning pipelines and deployed
+            production tools using <span>Docker</span>, <span>AWS</span>, and <span>GCP</span>.
           </p>
 
           <p>
-            In the future, I hope to use technology to <span>innovate</span>{" "}
-            towards our generations most pressing issues of climate change,
-            colonizing Mars, and <span>beyond</span>.
+            In the future, I hope to continue using technology to <span>innovate </span>
+            toward our generation’s most pressing challenges—from sustainability to
+            healthcare and <span>beyond</span>.
           </p>
         </div>
         <div className="picture-container">
