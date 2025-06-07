@@ -6,7 +6,6 @@ import Stack from "../../assets/icons/stack.svg";
 import SoftwareEngineer from "../../assets/icons/software-engineer.svg";
 import MLIntern from "../../assets/icons/ml-intern.svg";
 import DevIntern from "../../assets/icons/dev-intern.svg";
-import BoardMember from "../../assets/icons/board-member.svg";
 
 import { motion } from "motion/react";
 
@@ -67,7 +66,7 @@ function Experience() {
       title: "Software Engineer Intern",
       company: "Predigle",
       date: "May - Aug 2023, 2024",
-      img: SoftwareEngineer,
+      img: DevIntern,
       pts: [
         "Built and deployed machine learning models—including neural networks and random forests—for classifying insurance claim overpayment reasons using 400k+ data points, achieving 97% accuracy and identifying $250k+ in new overpayments.",
         "Designed a segmentation tool for identifying tech-inclined patient cohorts using technographic data, enabling targeted outreach across 100k+ patients.",
