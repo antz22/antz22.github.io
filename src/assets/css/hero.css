@@ -1,5 +1,5 @@
 div.hero .container {
-  padding: 1em 3.5em;
+  padding: 1em 1.5em;
   height: 100vh;
   margin-top: -17.5vh !important;
   align-items: center;
@@ -43,6 +43,11 @@ div.hero .container a .github-cta:hover {
   transition: 0.2s;
 }
 
+@media only screen and (min-width: 450px) {
+  div.hero .container {
+    padding: 1em 3.5em;
+  }
+}
 @media only screen and (min-width: 650px) {
   div.hero .container {
     height: 100vh;
