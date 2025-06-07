@@ -13,8 +13,7 @@ function Skill(props) {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-      >
+        transition={{ duration: 0.5, delay: 0.2 }}>
       <div className="skill-icon">
         <img className="icon" src={props.src} alt="icon" />
       </div>
@@ -29,8 +28,7 @@ function SkillBar(props) {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.4 }}
-      >
+        transition={{ duration: 0.5, delay: 0.4 }}>
       <div className="skillbar-name">
         <h4>{props.name}</h4>
       </div>

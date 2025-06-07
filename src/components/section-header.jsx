@@ -9,8 +9,7 @@ function SectionHeader(props) {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.1 }}
-    >
+      transition={{ duration: 0.5, delay: 0.1 }}>
       <h2 className="section-title">
         <span>{props.title}</span>
       </h2>

@@ -17,8 +17,7 @@ function ExperienceCard(props) {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-    >
+      transition={{ duration: 0.5, delay: 0.2 }}>
       <div className="experience-img">
         <img src={props.img} alt="Icon" />
       </div>
@@ -126,12 +125,7 @@ function Experience() {
 
   return (
     <div className="experience">
-      <SectionHeader
-        title="Experience"
-        aos="fade-right"
-        offset="20px"
-        duration="1000"
-      />
+      <SectionHeader title="Experience"/>
 
       <div className="container">
         {experiences.map(({ title, company, date, img, pts, link, stack }) => (
