@@ -39,15 +39,9 @@ div.awards {
                     color: $accent;
                     font-weight: bold;
                     font-family: 'Hack';
-                    font-size: 1.1em;
+                    font-size: 1.0em;
                     margin-top: 0.6em;
                     margin-bottom: 0.6em;
-                }
-
-                p.award-date {
-                    margin: 0;
-                    color: $brighter;
-                    font-family: 'Hack';
                 }
 
                 p.award-blurb {
@@ -72,7 +66,7 @@ div.awards {
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
 
     div.awards {
 
@@ -80,11 +74,11 @@ div.awards {
             padding: 4.0em;
 
             .award-row {
-                grid-template-columns: repeat(2, minmax(300px, 1fr));
+                grid-template-columns: 1fr 1fr;
 
                 .award {
                     width: 80%;
-                    height: 280px;
+                    height: 250px;
                     padding: 1.8em;
                 }
             }
@@ -93,13 +87,26 @@ div.awards {
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 850px) {
 
     div.awards {
         .container {
             .award-row {
                 .award {
-                    height: 240px;
+                    height: 230px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 950px) {
+
+    div.awards {
+        .container {
+            .award-row {
+                .award {
+                    height: 200px;
                 }
             }
         }
@@ -121,7 +128,7 @@ div.awards {
                 .award {
                     max-width: 350px;
                     width: 80%;
-                    height: 310px;
+                    height: 270px;
 
                     p.award-blurb {
                         margin-top: 2.4em;
