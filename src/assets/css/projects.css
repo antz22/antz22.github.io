@@ -101,7 +101,6 @@ div.projects .container .project .project-img:hover {
     width: 100%;
   }
   div.projects .container .project .project-img {
-    width: 60%;
     z-index: -1;
   }
 }/*# sourceMappingURL=projects.css.map */

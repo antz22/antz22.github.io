@@ -29,15 +29,12 @@ div#skills {
                 }
             }
 
-
             .skill-name {
                 color: $accent;
                 margin-bottom: 0;
                 display: flex;
                 justify-content: center;
             }
-
-
         }
 
         .skillbar {
@@ -89,24 +86,18 @@ div#skills {
                     width: 10em;
 
                     .skill-icon {
-
                         img {
                             width: 5.5em;
                             height: 5.5em;
                         }
                     }
 
-
                     .skill-name {
                         font-size: 1em;
                         color: $accent;
                         margin-bottom: 0;
                     }
-
-
                 }
-
-
             }
 
             .skillbar-container {
@@ -114,7 +105,6 @@ div#skills {
                 display: flex;
 
                 .skillbar-col {
-
                     font-size: 1.0em;
                     width: 40%;
                     margin: 1em auto 2em auto;

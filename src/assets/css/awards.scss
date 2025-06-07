@@ -58,7 +58,6 @@ div.awards {
                     line-height: 1.4;
                 }
 
-
                 &:hover {
                     transition: 0.2s;
                     top: -10px;
@@ -82,7 +81,6 @@ div.awards {
 
             .award-row {
                 grid-template-columns: repeat(2, minmax(300px, 1fr));
-
 
                 .award {
                     width: 80%;

@@ -4,10 +4,8 @@ $primary: #fff;
 $secondary: #c1c1c1;
 $tertiary: #A6A6A6;
 $brighter: #D6D6D6;
-$bg-2: #003F77;
+$bg-2: #00325e;
 $btn-hover: #01437c;
-
-
 
 
 .navbar {
@@ -43,7 +41,6 @@ $btn-hover: #01437c;
 
         nav {
             display: none;
-
             position: fixed;
             z-index: 1000;
             width: 50%;
@@ -103,7 +100,6 @@ $btn-hover: #01437c;
                 margin-top: auto;
                 margin-bottom: auto;
             }
-
         }
     }
 }
