@@ -12,18 +12,17 @@ import CSS from "../../assets/logos/css.svg";
 import Django from "../../assets/logos/django.svg";
 import Python from "../../assets/logos/python.svg";
 import Selenium from "../../assets/logos/selenium.svg";
-import VueJS from "../../assets/logos/vuejs.svg";
 import Linux from "../../assets/logos/linux.svg";
 import C from "../../assets/logos/c.svg";
 import Arch from "../../assets/logos/arch-linux.svg";
 import React from "../../assets/logos/react.svg";
+import OpenCV from "../../assets/logos/opencv.svg";
+import GoogleCloud from "../../assets/logos/googlecloud.svg";
 
 import FlutterGuide from "../../assets/images/flutter-guide.svg";
 import ConnectAnon from "../../assets/images/connectanon.png";
 import Alertra from "../../assets/images/alertra.png";
 import MontyCompsci from "../../assets/images/montycompsci.png";
-import MontyHacks from "../../assets/images/montyhacks.png";
-import OneFocus from "../../assets/images/onefocus.png";
 import ArchLinux from "../../assets/images/arch-linux.png";
 
 import { motion } from "motion/react";
@@ -84,6 +83,15 @@ function Projects() {
       img: ConnectAnon,
     },
     {
+      title: "VirtualMouse",
+      github: "https://github.com/antz22/virtual-mouse",
+      link: "",
+      blurb:
+        "A program that allows users to control their computer or GUI using only hand gestures. Built using Python, OpenCV, and Mediapipe.",
+      icons: [Python, OpenCV, GoogleCloud],
+      img: MontyCompsci,
+    },
+    {
       title: "Alertra",
       github: "https://github.com/antz22/Alertra-peddiehacks",
       link: "",
@@ -91,33 +99,6 @@ function Projects() {
         "A school safety system that allows students and teachers to quickly transmit vital information on school safety alerts.",
       icons: [Dart, Flutter, Django, Python, Selenium],
       img: Alertra,
-    },
-    {
-      title: "Monty CSC",
-      github: "https://github.com/antz22/montycsc-website",
-      link: "https://montycompsci.netlify.app/",
-      blurb:
-        "Designed a website for the Montgomery Computer Science Club, including essential information for new members, up-to-date schedules and forms to register.",
-      icons: [HTML, CSS],
-      img: MontyCompsci,
-    },
-    {
-      title: "MontyHacks",
-      github: "https://github.com/montycompsci/MontyHacksV",
-      link: "https://www.montyhacks.com/",
-      blurb:
-        "Hosted the first ever hybrid hackathon at Montgomery High School, attracting over 150 participants from over 30 different schools. Also designed website with hackathon information, sponsors, and registration forms.",
-      icons: [React, HTML, CSS],
-      img: MontyHacks,
-    },
-    {
-      title: "OneFocus",
-      github: "https://github.com/antz22/OneFocus",
-      link: "https://onefocus.netlify.app/",
-      blurb:
-        "A productivity app that combines task organization with studying techniques and scheduling features.",
-      icons: [VueJS, Django, Python],
-      img: OneFocus,
     },
     {
       title: "Arch Linux",
