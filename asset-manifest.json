@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.66dfdc9c.css",
-    "main.js": "/static/js/main.75454566.js",
+    "main.js": "/static/js/main.d90841bf.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/arch-linux.png": "/static/media/arch-linux.e7a5f087cf598e784cbf.png",
+    "static/media/virtualmouse.png": "/static/media/virtualmouse.485e5389ea965850aecd.png",
     "static/media/Hack-Bold.ttf": "/static/media/Hack-Bold.1f083437d9fb0dac875e.ttf",
     "static/media/Hack-Regular.ttf": "/static/media/Hack-Regular.43eaec865af75dee0040.ttf",
     "static/media/picture.png": "/static/media/picture.1b5853ccd00d98fd0a3f.png",
-    "static/media/virtualmouse.png": "/static/media/virtualmouse.1d1d4668b4ae7085c1fc.png",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.5bbf883434f9ff23d619.jpg",
     "static/media/connectanon.png": "/static/media/connectanon.6289d5c7e7b7cf9ee1e4.png",
     "static/media/alertra.png": "/static/media/alertra.52c5f7d2f1ffa863ade7.png",
@@ -44,11 +44,11 @@
     "static/media/flutter.svg": "/static/media/flutter.e596d2f6dea87c375c597ed537f4c7a4.svg",
     "static/media/chevron.svg": "/static/media/chevron.0d8ebba562b794b76c52fb9e1b51e7b3.svg",
     "main.66dfdc9c.css.map": "/static/css/main.66dfdc9c.css.map",
-    "main.75454566.js.map": "/static/js/main.75454566.js.map",
+    "main.d90841bf.js.map": "/static/js/main.d90841bf.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66dfdc9c.css",
-    "static/js/main.75454566.js"
+    "static/js/main.d90841bf.js"
   ]
 }
