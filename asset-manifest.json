@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab70a590.css",
-    "main.js": "/static/js/main.702d21a1.js",
+    "main.css": "/static/css/main.66dfdc9c.css",
+    "main.js": "/static/js/main.75454566.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/arch-linux.png": "/static/media/arch-linux.e7a5f087cf598e784cbf.png",
     "static/media/Hack-Bold.ttf": "/static/media/Hack-Bold.1f083437d9fb0dac875e.ttf",
     "static/media/Hack-Regular.ttf": "/static/media/Hack-Regular.43eaec865af75dee0040.ttf",
     "static/media/picture.png": "/static/media/picture.1b5853ccd00d98fd0a3f.png",
-    "static/media/onefocus.png": "/static/media/onefocus.a3c18fc5e6b043f9f844.png",
-    "static/media/montycompsci.png": "/static/media/montycompsci.da8348d741f2310f8ae9.png",
+    "static/media/virtualmouse.png": "/static/media/virtualmouse.1d1d4668b4ae7085c1fc.png",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.5bbf883434f9ff23d619.jpg",
     "static/media/connectanon.png": "/static/media/connectanon.6289d5c7e7b7cf9ee1e4.png",
     "static/media/alertra.png": "/static/media/alertra.52c5f7d2f1ffa863ade7.png",
     "static/media/flutter-guide.svg": "/static/media/flutter-guide.61f699ee1f3f461bd5ab6ec5d7bbe1ce.svg",
-    "static/media/montyhacks.png": "/static/media/montyhacks.97d3445b3629ef25ce8d.png",
     "static/media/ml-intern.svg": "/static/media/ml-intern.cd5b50eeb408884be9a8952d34f29f9c.svg",
     "static/media/ai.svg": "/static/media/ai.4a0b6368cb6bb2e49476c8013a9b28ed.svg",
     "static/media/software-engineer.svg": "/static/media/software-engineer.759db256efe76784525e00216963feaf.svg",
@@ -23,11 +21,12 @@
     "static/media/linux.svg": "/static/media/linux.1e85a47b4037ce26bef6655c1ce7a412.svg",
     "static/media/arch-linux.svg": "/static/media/arch-linux.352f9ab69416d948359ea24a045358ef.svg",
     "static/media/selenium.svg": "/static/media/selenium.0cb0696de6d2241a8bef38b587c04544.svg",
-    "static/media/board-member.svg": "/static/media/board-member.66ab28d3e31c7cb2a80e982b43bc54da.svg",
     "static/media/instagram.svg": "/static/media/instagram.f4bbcca97ec8a806dc61de0a08f5aa46.svg",
+    "static/media/opencv.svg": "/static/media/opencv.7bfa055d814d6946434f05d78e81e06a.svg",
     "static/media/mobile-dev.svg": "/static/media/mobile-dev.7b6f3ed0fbeef3caf64e38f7969c296c.svg",
     "static/media/python.svg": "/static/media/python.eb1dfe9fe868cfb564d5cc5d22efebc1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.fc899dc4d7cd030b9c2859f3e02df516.svg",
+    "static/media/googlecloud.svg": "/static/media/googlecloud.b30b22c80eddd0e3495bc107fd9e6051.svg",
     "static/media/link.svg": "/static/media/link.34235b2f6296dc84cb0d5b4e15abfea1.svg",
     "static/media/github.svg": "/static/media/github.67b508189ff72a36ee307602bfb5becd.svg",
     "static/media/c.svg": "/static/media/c.239cc933fc7552e297fd2af9f7de4940.svg",
@@ -40,17 +39,16 @@
     "static/media/stackoverflow.svg": "/static/media/stackoverflow.2d2a8eea4e0d7470313cfb72347310c4.svg",
     "static/media/firebase.svg": "/static/media/firebase.0340368601102e5a3e24e7592aaea913.svg",
     "static/media/html.svg": "/static/media/html.3262cd7519204c93c0e5de090a63fb61.svg",
-    "static/media/vuejs.svg": "/static/media/vuejs.374f2dbea0bccc7fe713106ece5093b8.svg",
     "static/media/menu.svg": "/static/media/menu.5eef0ab13db4e72d31011156ea3a8773.svg",
     "static/media/exit.svg": "/static/media/exit.8c8e670de1cdb7c5ea6f34dad578042d.svg",
     "static/media/flutter.svg": "/static/media/flutter.e596d2f6dea87c375c597ed537f4c7a4.svg",
     "static/media/chevron.svg": "/static/media/chevron.0d8ebba562b794b76c52fb9e1b51e7b3.svg",
-    "main.ab70a590.css.map": "/static/css/main.ab70a590.css.map",
-    "main.702d21a1.js.map": "/static/js/main.702d21a1.js.map",
+    "main.66dfdc9c.css.map": "/static/css/main.66dfdc9c.css.map",
+    "main.75454566.js.map": "/static/js/main.75454566.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab70a590.css",
-    "static/js/main.702d21a1.js"
+    "static/css/main.66dfdc9c.css",
+    "static/js/main.75454566.js"
   ]
 }
