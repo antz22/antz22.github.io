@@ -51,26 +51,27 @@ function ExperienceCard(props) {
 function Experience() {
   const experiences = [    {
       title: "Software Engineer Intern",
-      company: "Predigle",
-      date: "May 2025 - Present",
+      company: "Databricks",
+      date: "Jun 2026 - Present",
       img: SoftwareEngineer,
       pts: [
-        "Developing time series forecasting models using Meta’s Robyn and statsmodels to model client revenue as a function of media spend, helping guide budget allocation decisions.",
-        "Designing a supply chain optimization system for coordinating truck and barge routes across rural Indonesia, enabling efficient coconut collection from smallholder farms."
+        "Migrating a legacy workspace cleanup service into a standalone Kubernetes CronJob on the Workspaces platform, decoupling cancellation-based purge workflows from legacy infrastructure and improving maintainability of recurring workspace lifecycle operations."
       ],
       link: false,
       stack:
-        "Using the statsmodels library for building time series models and Google's OR-Tools for modeling supply chain scenarios.",
+        "Developing in Scala and deploying to Kubernetes pod clusters using Spinnaker.",
     },
     {
       title: "Software Engineer Intern",
       company: "Predigle",
-      date: "May - Aug 2023, 2024",
+      date: "May - Aug 2023, 2024, 2025",
       img: DevIntern,
       pts: [
+        "Architected and developed a full-stack geospatial web application (Angular, Leaflet, Django) for visualizing multi-layer supply chain data with dynamic toggling, shape-drawing, and real-time layer generation.",
+        "Co-developed a LangChain-based Retrieval-Augmented Generation (RAG) chatbot using open-source LLMs to help automate prior authorization assessment, enabling healthcare teams to query and summarize complex medical PDFs with higher accuracy and efficiency for prescription fulfillment.",
         "Built and deployed machine learning models—including neural networks and random forests—for classifying insurance claim overpayment reasons using 400k+ data points, achieving 97% accuracy and identifying $250k+ in new overpayments.",
-        "Designed a segmentation tool for identifying tech-inclined patient cohorts using technographic data, enabling targeted outreach across 100k+ patients.",
-        "Created the initial prototype of Predigle Quest, an Atlassian Forge app for agile project execution in Jira, later monetized as a core product for enterprise clients.",
+        // "Designed a segmentation tool for identifying tech-inclined patient cohorts using technographic data, enabling targeted outreach across 100k+ patients.",
+        // "Created the initial prototype of Predigle Quest, an Atlassian Forge app for agile project execution in Jira, later monetized as a core product for enterprise clients.",
         "Containerized and deployed full-stack applications to client environments using Docker, AWS, and GCP.",
       ],
       link: false,
